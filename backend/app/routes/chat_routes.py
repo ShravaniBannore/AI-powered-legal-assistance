@@ -29,8 +29,7 @@ router = APIRouter()
 # ==============================
 # CONFIG
 # ==============================
-TOP_K = 5
-SIMILARITY_THRESHOLD = 0.60
+
 
 
 # ============================================================
@@ -121,6 +120,9 @@ def debug_search(text: str):
 # ============================================================
 # 5️⃣ MAIN CHAT ENDPOINT (JWT PROTECTED)
 # ============================================================
+
+TOP_K = 5
+SIMILARITY_THRESHOLD = 0.75
 @router.post("/chat")
 def chat(
     request: ChatRequest,
@@ -143,13 +145,17 @@ def chat(
     matched_chunks = get_chunks_by_indices(flat_indices)
 
     results = []
+    seen = set()
 
     for i in range(len(matched_chunks)):
-        distance = float(distances[0][i])
-        similarity = 1 / (1 + distance)
+        similarity = float(distances[0][i])
 
         if similarity >= SIMILARITY_THRESHOLD:
-            results.append(matched_chunks[i])
+            chunk = matched_chunks[i]
+
+            if chunk not in seen:
+               results.append(chunk)
+               seen.add(chunk)
 
     if not results:
         return {
