@@ -54,5 +54,8 @@ def authenticate_user(email: str, password: str):
         db.close()
         return None
 
+    # Access role before closing session
+    user_role = user.role.name
+
     db.close()
     return user
