@@ -153,9 +153,22 @@ def chat(
         if similarity >= SIMILARITY_THRESHOLD:
             chunk = matched_chunks[i]
 
+            # Avoid near-identical chunks
             if chunk not in seen:
-               results.append(chunk)
-               seen.add(chunk)
+                results.append({
+                   "text": chunk,
+                   "score": round(similarity, 4)
+                })
+                seen.add(chunk)
+
+    # Sort explicitly by similarity score (safety layer)
+    results = sorted(results, key=lambda x: x["score"], reverse=True)
+
+    # Keep only top 3 for cleaner response
+    results = results[:3]
+
+    # Extract text only for response engine
+    clean_chunks = [item["text"] for item in results]
 
     if not results:
         return {

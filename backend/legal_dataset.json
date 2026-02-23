@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "category": "Tenancy Law",
+      "title": "Eviction Notice Requirements",
+      "content": "A landlord must provide written notice before eviction. The notice period depends on local tenancy laws. Eviction without court order may be illegal."
+    },
+    {
+      "id": 2,
+      "category": "Tenancy Law",
+      "title": "Security Deposit Refund",
+      "content": "A landlord must return the security deposit within the legally prescribed time after termination of tenancy. Deductions must be documented."
+    },
+    {
+      "id": 3,
+      "category": "Employment Law",
+      "title": "Termination Rights",
+      "content": "An employee has the right to receive notice before termination unless terminated for misconduct. Severance pay may apply."
+    }
+  ] 
