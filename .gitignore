@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# FAISS index files
+faiss_index/
+*.faiss
+*.index
+*.bin
+
+# Environment variables
+.env
+
+# Database files (if any local)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build folders
+build/
+dist/
