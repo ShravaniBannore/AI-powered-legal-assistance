@@ -1,31 +1,44 @@
 import json
 import os
 
-CHUNK_PATH = "faiss_index/chunks.json"
+CHUNK_FILE = "faiss_index/chunks.json"
 
-# Ensure directory exists
 os.makedirs("faiss_index", exist_ok=True)
 
-
 def load_chunks():
-    if os.path.exists(CHUNK_PATH):
-        with open(CHUNK_PATH, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return []
+    if not os.path.exists(CHUNK_FILE):
+        return []
+
+    with open(CHUNK_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 def save_chunks(chunks):
-    with open(CHUNK_PATH, "w", encoding="utf-8") as f:
+    with open(CHUNK_FILE, "w", encoding="utf-8") as f:
         json.dump(chunks, f, indent=4)
 
 
-def add_chunk(text: str):
+def add_chunk(chunk_data: dict):
+    """
+    chunk_data = {
+        "id": int,
+        "category": str,
+        "title": str,
+        "content": str
+    }
+    """
     chunks = load_chunks()
-    chunks.append(text)
+    chunks.append(chunk_data)
     save_chunks(chunks)
-    return len(chunks) - 1  # return index position
+    return len(chunks) - 1
 
 
-def get_chunks_by_indices(indices):
+def get_chunks_by_indices(indices: list):
     chunks = load_chunks()
-    return [chunks[i] for i in indices if i < len(chunks)]
+    results = []
+
+    for idx in indices:
+        if 0 <= idx < len(chunks):
+            results.append(chunks[idx])
+
+    return results

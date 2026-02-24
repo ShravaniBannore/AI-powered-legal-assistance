@@ -154,21 +154,29 @@ def chat(
             chunk = matched_chunks[i]
 
             # Avoid near-identical chunks
-            if chunk not in seen:
+            if chunk["content"] not in seen:
                 results.append({
-                   "text": chunk,
-                   "score": round(similarity, 4)
+                "content": chunk["content"],
+                "category": chunk["category"],
+                "title": chunk["title"],
+                "score": round(similarity, 4)
                 })
-                seen.add(chunk)
+                seen.add(chunk["content"])
+    
+    for item in results:
+        if current_user.role.name == "Student" and item["category"] == "Tenancy Law":
+            item["score"] += 0.05
+
+        if current_user.role.name == "Employee" and item["category"] == "Employment Law":
+            item["score"] += 0.05
 
     # Sort explicitly by similarity score (safety layer)
     results = sorted(results, key=lambda x: x["score"], reverse=True)
-
     # Keep only top 3 for cleaner response
     results = results[:3]
-
+    confidence_score = round(results[0]["score"], 2) if results else 0
     # Extract text only for response engine
-    clean_chunks = [item["text"] for item in results]
+    clean_chunks = [item["content"] for item in results]
 
     if not results:
         return {
@@ -184,14 +192,16 @@ def chat(
 
     # Build structured response
     final_response = build_legal_response(
-    question=query,
-    retrieved_chunks=results,
-    role=current_user.role.name
+    query,
+    clean_chunks,
+    current_user.role.name,
+    confidence_score
 )
 
     return {
         "user_id": str(current_user.id),
         "role": current_user.role.name,
         "query": query,
-        "response": final_response
+        "response": final_response,
+        "confidence_score": confidence_score
     }

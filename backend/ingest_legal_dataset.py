@@ -23,7 +23,6 @@ def ingest_dataset():
     for item in data:
         content = item["content"]
 
-        # Simple paragraph chunking (can improve later)
         paragraphs = content.split(". ")
 
         for para in paragraphs:
@@ -34,7 +33,13 @@ def ingest_dataset():
             vector = np.array([embedding]).astype("float32")
 
             add_vectors(index, vector)
-            add_chunk(para)
+
+            add_chunk({
+                "id": item["id"],
+                "category": item["category"],
+                "title": item["title"],
+                "content": para.strip()
+            })
 
     print("Dataset ingestion complete.")
 
