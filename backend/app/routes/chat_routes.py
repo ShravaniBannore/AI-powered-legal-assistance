@@ -177,6 +177,13 @@ def chat(
     confidence_score = round(results[0]["score"], 2) if results else 0
     # Extract text only for response engine
     clean_chunks = [item["content"] for item in results]
+    citations = []
+
+    for item in results:
+        citations.append({
+            "title": item["title"],
+            "category": item["category"]
+        })  
 
     if not results:
         return {
@@ -195,7 +202,8 @@ def chat(
     query,
     clean_chunks,
     current_user.role.name,
-    confidence_score
+    confidence_score,
+    citations
 )
 
     return {
