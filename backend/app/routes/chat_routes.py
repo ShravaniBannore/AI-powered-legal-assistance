@@ -26,6 +26,7 @@ from app.database.connection import Session,get_db
 from app.schemas.chat_schema import ChatRequest
 
 from app.utils.category_detector import detect_category
+from app.utils.legal_filter import is_legal_query
 
 
 router = APIRouter()
@@ -113,6 +114,15 @@ def chat(
     db: Session = Depends(get_db)
 ):
     query = request.query
+
+    # Check if legal
+    if not is_legal_query(query):
+        return {
+            "answer": "This assistant is designed to answer legal-related questions only. Please ask a legal query.",
+            "confidence": 0.0,
+            "source": []
+        }
+    
     predicted_category = detect_category(query)
     if not predicted_category:
        predicted_category = "General"
