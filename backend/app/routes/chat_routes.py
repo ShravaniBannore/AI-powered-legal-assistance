@@ -1,5 +1,7 @@
 from fastapi import APIRouter, Depends
 import numpy as np
+from app.retrieval.ranking import keyword_score
+from app.utils.source_links import generate_source_links
 
 # Auth
 from app.auth.jwt_handler import get_current_user
@@ -22,6 +24,8 @@ from app.retrieval.chunk_store import (
 from app.response_engine.response_engine import build_legal_response
 from app.database.connection import Session,get_db
 from app.schemas.chat_schema import ChatRequest
+
+from app.utils.category_detector import detect_category
 
 
 router = APIRouter()
@@ -48,8 +52,8 @@ def protected_route(current_user: User = Depends(get_current_user)):
 # 2️⃣ DEBUG — EMBEDDING
 # ============================================================
 @router.post("/debug/embedding")
-def debug_embedding(text: str):
-    vector = generate_embedding(text)
+def debug_embedding(content: str):
+    vector = generate_embedding(content)
 
     return {
          "dimension": int(len(vector)),
@@ -58,35 +62,14 @@ def debug_embedding(text: str):
 
 
 # ============================================================
-# 3️⃣ DEBUG — ADD VECTOR + CHUNK
-# ============================================================
-@router.post("/debug/faiss-add")
-def debug_add_vector(text: str):
-
-    index = load_or_create_index()
-
-    vector = generate_embedding(text)
-    vector = np.array([vector]).astype("float32")
-
-    add_vectors(index, vector)
-    chunk_id = add_chunk(text)
-
-    return {
-        "message": "Vector + chunk added",
-        "chunk_id": chunk_id,
-        "total_vectors": index.ntotal
-    }
-
-
-# ============================================================
 # 4️⃣ DEBUG — SEARCH ONLY
 # ============================================================
 @router.post("/debug/faiss-search")
-def debug_search(text: str):
+def debug_search(content: str):
 
     index = load_or_create_index()
 
-    vector = generate_embedding(text)
+    vector = generate_embedding(content)
     vector = np.array([vector]).astype("float32")
 
     distances, indices = index.search(vector, TOP_K)
@@ -102,7 +85,7 @@ def debug_search(text: str):
 
         if similarity >= SIMILARITY_THRESHOLD:
             results.append({
-                "text": matched_chunks[i],
+                "content": matched_chunks[i],
                 "similarity": round(similarity, 4)
             })
 
@@ -122,7 +105,7 @@ def debug_search(text: str):
 # ============================================================
 
 TOP_K = 5
-SIMILARITY_THRESHOLD = 0.75
+SIMILARITY_THRESHOLD = 0.50
 @router.post("/chat")
 def chat(
     request: ChatRequest,
@@ -130,6 +113,9 @@ def chat(
     db: Session = Depends(get_db)
 ):
     query = request.query
+    predicted_category = detect_category(query)
+    if not predicted_category:
+       predicted_category = "General"
 
     # Generate embedding
     vector = generate_embedding(query)
@@ -148,20 +134,32 @@ def chat(
     seen = set()
 
     for i in range(len(matched_chunks)):
-        similarity = float(distances[0][i])
+        distance = float(distances[0][i])
+        semantic_similarity = 1 / (1 + distance)
 
-        if similarity >= SIMILARITY_THRESHOLD:
-            chunk = matched_chunks[i]
+        chunk = matched_chunks[i]
+        # Keyword score
+        content = chunk.get("content")
 
-            # Avoid near-identical chunks
-            if chunk["content"] not in seen:
+        if not content:
+            continue
+     
+               
+
+        kw_score = keyword_score(query, content)
+
+        # Hybrid score
+        final_score = (0.7 * semantic_similarity) + (0.3 * kw_score)
+
+        if final_score >= 0.50:
+            if content not in seen:
                 results.append({
-                "content": chunk["content"],
-                "category": chunk["category"],
-                "title": chunk["title"],
-                "score": round(similarity, 4)
+                    "content": content,
+                    "category": chunk.get("category", "General"),
+                    "title": chunk.get("title", "Unknown"),
+                    "score": round(final_score, 4)
                 })
-                seen.add(chunk["content"])
+                seen.add(content)
     
     for item in results:
         if current_user.role.name == "Student" and item["category"] == "Tenancy Law":
@@ -170,12 +168,15 @@ def chat(
         if current_user.role.name == "Employee" and item["category"] == "Employment Law":
             item["score"] += 0.05
 
+        if predicted_category and item["category"] == predicted_category:
+            item["score"] += 0.10
+
     # Sort explicitly by similarity score (safety layer)
     results = sorted(results, key=lambda x: x["score"], reverse=True)
     # Keep only top 3 for cleaner response
     results = results[:3]
     confidence_score = round(results[0]["score"], 2) if results else 0
-    # Extract text only for response engine
+    # Extract content only for response engine
     clean_chunks = [item["content"] for item in results]
     citations = []
 
@@ -203,13 +204,16 @@ def chat(
     clean_chunks,
     current_user.role.name,
     confidence_score,
-    citations
+    citations,   
 )
+    sources = generate_source_links(query, predicted_category)
 
     return {
         "user_id": str(current_user.id),
         "role": current_user.role.name,
         "query": query,
+        "predicted_category": predicted_category,
         "response": final_response,
-        "confidence_score": confidence_score
+        "confidence_score": confidence_score,
+        "sources": sources
     }

@@ -1,896 +1,1402 @@
 [
-  {
-    "id": 1,
-    "category": "Tenancy Law",
-    "title": "Eviction Notice Requirements",
-    "content": "A landlord must provide written notice before initiating eviction proceedings. The required notice period depends on local tenancy laws and the terms of the rental agreement. Eviction without proper notice or without a court order may be considered unlawful."
-  },
-  {
-    "id": 2,
-    "category": "Tenancy Law",
-    "title": "Security Deposit Refund",
-    "content": "Upon termination of tenancy, the landlord is required to return the security deposit within the legally prescribed period. Any deductions must be supported with documented reasons such as property damage beyond normal wear and tear."
-  },
-  {
-    "id": 3,
-    "category": "Employment Law",
-    "title": "Termination Without Notice",
-    "content": "An employee is generally entitled to prior notice before termination unless dismissed for serious misconduct. Employment contracts and labor laws may provide for severance pay or compensation in cases of unjust termination."
-  },
-  {
-    "id": 4,
-    "category": "Employment Law",
-    "title": "Workplace Harassment Rights",
-    "content": "Employees have the right to a workplace free from harassment and discrimination. Employers are obligated to establish complaint mechanisms and conduct fair investigations into harassment claims."
-  },
-  {
-    "id": 5,
-    "category": "Consumer Protection",
-    "title": "Defective Goods and Refund Rights",
-    "content": "Consumers have the right to seek repair, replacement, or refund if goods purchased are defective or do not match the advertised description. Consumer protection laws ensure remedies against unfair trade practices."
-  },
-  {
-    "id": 6,
-    "category": "Cyber Law",
-    "title": "Online Fraud Protection",
-    "content": "Victims of online fraud may file complaints with cybercrime authorities. Unauthorized financial transactions, identity theft, and phishing activities are punishable under cyber laws."
-  },
-  {
-    "id": 7,
-    "category": "Family Law",
-    "title": "Maintenance and Alimony Rights",
-    "content": "In cases of divorce or separation, a spouse may be entitled to maintenance or alimony based on financial dependency and living standards during marriage."
-  },
-  {
-    "id": 8,
-    "category": "Criminal Law",
-    "title": "Right to Legal Representation",
-    "content": "An accused person has the right to legal representation and a fair trial. If unable to afford a lawyer, legal aid services may be provided by the state."
-  },
-  {
-    "id": 9,
-    "category": "Contract Law",
-    "title": "Breach of Contract Remedies",
-    "content": "If one party fails to fulfill contractual obligations, the aggrieved party may seek remedies such as damages, specific performance, or contract termination."
-  },
-  {
-    "id": 10,
-    "category": "Tenancy Law",
-    "title": "Illegal Eviction Protections",
-    "content": "A tenant cannot be forcibly removed from rented premises without due legal process. Landlords must obtain a valid court order before eviction. Any attempt to remove a tenant without judicial approval may constitute unlawful eviction."
-  },
-  {
-    "id": 11,
-    "category": "Tenancy Law",
-    "title": "Notice Period for Termination",
-    "content": "Tenancy agreements typically specify a notice period required before termination. In absence of agreement, statutory tenancy laws determine minimum notice duration, often ranging from 15 to 60 days."
-  },
-  {
-    "id": 12,
-    "category": "Tenancy Law",
-    "title": "Rent Increase Regulations",
-    "content": "Landlords must follow statutory guidelines when increasing rent. Excessive or sudden rent hikes without prior notice may be challenged under rent control laws."
-  },
-  {
-    "id": 13,
-    "category": "Tenancy Law",
-    "title": "Maintenance Responsibilities",
-    "content": "Landlords are generally responsible for structural repairs and essential maintenance. Tenants are responsible for minor damages caused by negligence."
-  },
-  {
-    "id": 14,
-    "category": "Tenancy Law",
-    "title": "Right to Quiet Enjoyment",
-    "content": "Tenants are entitled to peaceful possession of rented property. Landlords cannot interfere with occupancy without legitimate reason."
-  },
-  {
-    "id": 15,
-    "category": "Tenancy Law",
-    "title": "Subletting Rules",
-    "content": "Subletting may require landlord consent depending on rental agreement terms. Unauthorized subletting can lead to termination."
-  },
-  {
-    "id": 16,
-    "category": "Tenancy Law",
-    "title": "Security Deposit Deductions",
-    "content": "Security deposit deductions must be reasonable and supported by evidence of damages beyond normal wear and tear."
-  },
-  {
-    "id": 17,
-    "category": "Tenancy Law",
-    "title": "Eviction for Non-Payment",
-    "content": "Failure to pay rent may lead to eviction proceedings after statutory notice period expires."
-  },
-  {
-    "id": 18,
-    "category": "Tenancy Law",
-    "title": "Tenant Rights During Sale of Property",
-    "content": "If rented property is sold, the new owner must honor existing tenancy agreements until lawful termination."
-  },
-  {
-    "id": 19,
-    "category": "Tenancy Law",
-    "title": "Emergency Repairs Rights",
-    "content": "Tenants may undertake essential repairs and deduct costs from rent if landlord neglects urgent maintenance."
-  },
-  {
-    "id": 20,
-    "category": "Tenancy Law",
-    "title": "Eviction Due to Property Misuse",
-    "content": "Using rented property for illegal or unauthorized purposes may justify eviction."
-  },
-  {
-    "id": 21,
-    "category": "Tenancy Law",
-    "title": "Notice for Lease Renewal",
-    "content": "Tenants must notify landlords within specified time if they intend to renew lease agreements."
-  },
-  {
-  "id": 22,
-  "category": "Tenancy Law",
-  "title": "Tenant Privacy Rights",
-  "content": "Landlords must provide prior notice before entering rented premises except in emergencies."
-  },
-  {
-  "id": 23,
-  "category": "Tenancy Law",
-  "title": "Utility Payment Obligations",
-  "content": "Responsibility for utility payments depends on lease agreement terms."
-  },
-  {
-  "id": 24,
-  "category": "Tenancy Law",
-  "title": "Eviction During Fixed-Term Lease",
-  "content": "Eviction during fixed-term lease requires legally valid grounds."
-  },
-  {
-  "id": 25,
-  "category": "Tenancy Law",
-  "title": "Tenant Compensation Rights",
-  "content": "Tenants may seek compensation if eviction is found unlawful."
-  },
-  {
-  "id": 26,
-  "category": "Tenancy Law",
-  "title": "Dispute Resolution Mechanisms",
-  "content": "Rental disputes may be resolved through rent control tribunals or civil courts."
-  },
-  {
-  "id": 27,
-  "category": "Tenancy Law",
-  "title": "Lease Agreement Enforcement",
-  "content": "Both landlord and tenant must adhere strictly to lease agreement terms."
-  },
-  {
-  "id": 28,
-  "category": "Tenancy Law",
-  "title": "Eviction Due to Renovation",
-  "content": "Landlords may evict tenants for major renovation only under statutory conditions."
-  },
-  {
-  "id": 29,
-  "category": "Tenancy Law",
-  "title": "Temporary Tenancy Protections",
-  "content": "Short-term tenants are still entitled to statutory protections under tenancy law."
-  },
-  {
-    "id": 30,
-    "category": "Employment Law",
-    "title": "Unlawful Termination",
-    "content": "An employee cannot be terminated without valid reason where labor laws require just cause. Arbitrary dismissal without following due disciplinary procedure may be challenged before labor courts."
-  },
-  {
-    "id": 31,
-    "category": "Employment Law",
-    "title": "Notice Period Before Termination",
-    "content": "Employers must provide prior notice or salary in lieu of notice before terminating an employee, unless termination is due to serious misconduct."
-  },
-  {
-    "id": 32,
-    "category": "Employment Law",
-    "title": "Severance Pay Entitlement",
-    "content": "Employees who are laid off due to redundancy or restructuring may be entitled to severance compensation as prescribed under labor regulations."
-  },
-  {
-    "id": 33,
-    "category": "Employment Law",
-    "title": "Wrongful Dismissal Remedies",
-    "content": "An employee subjected to wrongful dismissal may seek reinstatement, back wages, or compensation through labor tribunals."
-  },
-  {
-    "id": 34,
-    "category": "Employment Law",
-    "title": "Workplace Discrimination",
-    "content": "Discrimination in employment based on gender, religion, caste, disability, or other protected characteristics is prohibited under employment equality laws."
-  },
-  {
-    "id": 35,
-    "category": "Employment Law",
-    "title": "Equal Pay for Equal Work",
-    "content": "Employees performing similar duties under similar conditions must receive equal remuneration without discrimination."
-  },
-  {
-    "id": 36,
-    "category": "Employment Law",
-    "title": "Overtime Compensation",
-    "content": "Employees working beyond prescribed working hours are entitled to overtime pay at rates defined under labor laws."
-  },
-  {
-    "id": 37,
-    "category": "Employment Law",
-    "title": "Maternity Benefits",
-    "content": "Female employees are entitled to paid maternity leave and protection against dismissal during maternity period under statutory provisions."
-  },
-  {
-    "id": 38,
-    "category": "Employment Law",
-    "title": "Workplace Safety Obligations",
-    "content": "Employers must ensure a safe working environment and comply with occupational safety regulations to prevent workplace injuries."
-  },
-  {
-    "id": 39,
-    "category": "Employment Law",
-    "title": "Sexual Harassment Protection",
-    "content": "Employers must establish an internal complaints committee to address sexual harassment complaints and ensure fair investigation."
-  },
-  {
-    "id": 40,
-    "category": "Employment Law",
-    "title": "Probation Period Rights",
-    "content": "Even during probation, employees are entitled to fair treatment and termination must comply with contractual terms."
-  },
-  {
-    "id": 41,
-    "category": "Employment Law",
-    "title": "Minimum Wage Compliance",
-    "content": "Employers must pay wages not less than the statutory minimum wage prescribed for the specific industry and region."
-  },
-  {
-    "id": 42,
-    "category": "Employment Law",
-    "title": "Paid Leave Entitlements",
-    "content": "Employees are entitled to annual paid leave, sick leave, and other statutory leave benefits under employment regulations."
-  },
-  {
-    "id": 43,
-    "category": "Employment Law",
-    "title": "Employment Contract Enforcement",
-    "content": "Both employer and employee are legally bound by the terms of employment contract unless modified by mutual consent."
-  },
-  {
-    "id": 44,
-    "category": "Employment Law",
-    "title": "Unpaid Salary Recovery",
-    "content": "Employees may file claims before labor authorities for recovery of unpaid wages or delayed salary payments."
-  },
-  {
-    "id": 45,
-    "category": "Employment Law",
-    "title": "Industrial Dispute Resolution",
-    "content": "Disputes between employers and employees may be resolved through conciliation, arbitration, or labor courts."
-  },
-  {
-    "id": 46,
-    "category": "Employment Law",
-    "title": "Retrenchment Rules",
-    "content": "Retrenchment of employees must follow statutory procedures including notice, compensation, and government intimation where applicable."
-  },
-  {
-    "id": 47,
-    "category": "Employment Law",
-    "title": "Non-Compete Agreements",
-    "content": "Restrictive covenants such as non-compete clauses must be reasonable in scope and duration to be enforceable."
-  },
-  {
-    "id": 48,
-    "category": "Employment Law",
-    "title": "Employee Grievance Redressal",
-    "content": "Organizations are required to provide mechanisms for employees to raise workplace grievances without fear of retaliation."
-  },
-  {
-    "id": 49,
-    "category": "Employment Law",
-    "title": "Resignation Notice Requirements",
-    "content": "Employees are generally required to serve notice period before resignation unless waived by employer."
-  },
-   {
-    "id": 50,
-    "category": "Consumer Protection",
-    "title": "Right to Refund for Defective Products",
-    "content": "Consumers are entitled to a refund, replacement, or repair if a purchased product is defective or does not conform to advertised standards."
+    {
+      "id": 1,
+      "title": "Eviction Notice Requirements",
+      "category": "Tenancy Law",
+      "definition": "A landlord must provide proper written notice before initiating eviction proceedings.",
+      "explanation": "Before evicting a tenant, the landlord is legally required to give a written notice specifying the reason for eviction. The notice period depends on local tenancy laws and the rental agreement. If the landlord fails to follow proper notice procedures, the eviction may be considered unlawful. Tenants have the right to challenge such eviction in court. Legal due process must always be followed.",
+      "punishment": "Illegal eviction may result in legal action against the landlord, including penalties or compensation to the tenant.",
+      "keywords": ["eviction", "notice period", "tenant rights", "landlord rules", "illegal eviction"],
+      "source": "General Tenancy Laws and Rent Control Acts"
     },
     {
-    "id": 51,
-    "category": "Consumer Protection",
-    "title": "Unfair Trade Practices",
-    "content": "Misleading advertisements, false representations, and deceptive sales tactics constitute unfair trade practices and may be challenged before consumer courts."
+      "id": 2,
+      "title": "Security Deposit Refund",
+      "category": "Tenancy Law",
+      "definition": "A landlord must return the tenant's security deposit after termination of tenancy.",
+      "explanation": "After a tenant vacates the property, the landlord is required to return the security deposit within a legally specified time. Any deductions must be justified with valid reasons such as property damage beyond normal wear and tear. The landlord must provide proper documentation for such deductions. Failure to refund without reason can lead to legal disputes. Tenants can claim their rights through legal channels.",
+      "punishment": "Wrongful withholding of deposit may lead to legal penalties or compensation orders.",
+      "keywords": ["security deposit", "refund", "tenant rights", "property damage", "rent dispute"],
+      "source": "Tenancy and Rent Control Laws"
     },
     {
-    "id": 52,
-    "category": "Consumer Protection",
-    "title": "Right to Product Information",
-    "content": "Consumers have the right to receive accurate information regarding quality, quantity, ingredients, and pricing of goods and services."
+      "id": 3,
+      "title": "Termination Without Notice",
+      "category": "Employment Law",
+      "definition": "Employees are generally entitled to notice before termination unless there is serious misconduct.",
+      "explanation": "Employers are required to provide prior notice before terminating an employee. However, in cases of serious misconduct, immediate termination may be allowed. Employment contracts and labor laws define notice periods and conditions. If termination is unjustified, the employee may claim compensation or reinstatement. Labor laws ensure fairness in termination procedures.",
+      "punishment": "Unlawful termination may result in compensation, reinstatement, or legal action against the employer.",
+      "keywords": ["termination", "employment law", "notice period", "wrongful dismissal", "labor rights"],
+      "source": "Labor Laws and Employment Regulations"
     },
     {
-    "id": 53,
-    "category": "Consumer Protection",
-    "title": "Deficiency in Service",
-    "content": "Service providers must deliver services as promised. Failure to meet contractual or reasonable service standards may amount to deficiency."
+      "id": 4,
+      "title": "Workplace Harassment Rights",
+      "category": "Employment Law",
+      "definition": "Employees have the right to a workplace free from harassment and discrimination.",
+      "explanation": "Every employee has the right to work in a safe and respectful environment. Employers must prevent harassment and discrimination at the workplace. They are required to establish complaint mechanisms and conduct fair investigations. Victims can report harassment through internal committees or legal authorities. Strict action is taken against offenders to ensure workplace safety.",
+      "punishment": "Employers may face penalties and offenders may face disciplinary or legal action.",
+      "keywords": ["harassment", "workplace safety", "employee rights", "discrimination", "POSH"],
+      "source": "Workplace Harassment Laws (POSH Act in India)"
     },
     {
-    "id": 54,
-    "category": "Consumer Protection",
-    "title": "E-Commerce Consumer Rights",
-    "content": "Online shoppers are entitled to transparent pricing, return policies, and protection against fraudulent sellers under consumer laws."
+      "id": 5,
+      "title": "Defective Goods and Refund Rights",
+      "category": "Consumer Protection",
+      "definition": "Consumers have the right to repair, replacement, or refund for defective goods.",
+      "explanation": "If a product purchased by a consumer is defective or does not match its description, the consumer has the right to seek a remedy. This may include repair, replacement, or refund. Consumer protection laws safeguard buyers from unfair trade practices. Complaints can be filed in consumer courts if sellers fail to resolve issues. These laws ensure fair treatment of consumers.",
+      "punishment": "Sellers may face penalties, compensation claims, or legal action under consumer laws.",
+      "keywords": ["consumer rights", "defective goods", "refund", "replacement", "consumer court"],
+      "source": "Consumer Protection Act"
     },
     {
-    "id": 55,
-    "category": "Consumer Protection",
-    "title": "Warranty Enforcement",
-    "content": "Manufacturers and sellers must honor valid warranty commitments for repair or replacement within the warranty period."
+      "id": 6,
+      "title": "Online Fraud Protection",
+      "category": "Cyber Law",
+      "definition": "Victims of online fraud have the right to report and seek legal action.",
+      "explanation": "Online fraud includes unauthorized transactions, identity theft, and phishing attacks. Victims can file complaints with cybercrime authorities. Cyber laws protect individuals from digital financial crimes. Immediate reporting increases the chances of recovery. Authorities investigate such cases and take strict action against offenders.",
+      "punishment": "Offenders may face imprisonment, fines, or both under cyber laws.",
+      "keywords": ["cyber crime", "online fraud", "phishing", "identity theft", "digital crime"],
+      "source": "Information Technology Act and Cyber Laws"
     },
     {
-    "id": 56,
-    "category": "Consumer Protection",
-    "title": "Overcharging Complaints",
-    "content": "Charging above maximum retail price or hidden charges without disclosure may be legally challenged by consumers."
+      "id": 7,
+      "title": "Maintenance and Alimony Rights",
+      "category": "Family Law",
+      "definition": "A spouse may be entitled to maintenance or alimony after divorce or separation.",
+      "explanation": "In cases of divorce or separation, one spouse may claim financial support from the other. The amount depends on factors like income, financial dependency, and standard of living. Courts ensure that the dependent spouse can maintain a reasonable lifestyle. Maintenance can be temporary or permanent. Legal provisions ensure fairness and support for the affected party.",
+      "punishment": "Failure to pay maintenance may result in legal penalties or court orders.",
+      "keywords": ["alimony", "maintenance", "divorce", "family law", "spouse rights"],
+      "source": "Family Laws and Marriage Acts"
     },
     {
-    "id": 57,
-    "category": "Consumer Protection",
-    "title": "Product Liability Claims",
-    "content": "Manufacturers may be held liable for damages caused by defective products that result in injury or financial loss."
+      "id": 8,
+      "title": "Right to Legal Representation",
+      "category": "Criminal Law",
+      "definition": "Every accused person has the right to legal representation and a fair trial.",
+      "explanation": "Under criminal law, every individual accused of a crime has the right to defend themselves through a lawyer. If they cannot afford one, the state provides free legal aid. This ensures fairness and justice in legal proceedings. A fair trial is a fundamental right. Courts ensure that no person is denied legal representation.",
+      "punishment": "Violation of this right may lead to case dismissal or retrial.",
+      "keywords": ["legal rights", "lawyer", "fair trial", "criminal law", "legal aid"],
+      "source": "Constitutional and Criminal Laws"
     },
     {
-    "id": 58,
-    "category": "Consumer Protection",
-    "title": "Right to Fair Billing",
-    "content": "Consumers are entitled to transparent billing practices without unauthorized fees or misleading charges."
+      "id": 9,
+      "title": "Breach of Contract Remedies",
+      "category": "Contract Law",
+      "definition": "If a contract is breached, the affected party can seek legal remedies.",
+      "explanation": "A breach of contract occurs when one party fails to fulfill agreed obligations. The affected party can seek remedies such as damages, specific performance, or termination. Courts evaluate the loss suffered and provide appropriate compensation. Contracts are legally binding and enforceable. Legal action ensures fairness in business agreements.",
+      "punishment": "The breaching party may be required to pay damages or fulfill contractual obligations.",
+      "keywords": ["contract breach", "damages", "agreement", "legal remedy", "contract law"],
+      "source": "Indian Contract Act"
     },
     {
-    "id": 59,
-    "category": "Consumer Protection",
-    "title": "Complaint Filing Procedure",
-    "content": "Consumers may file complaints before district, state, or national consumer dispute redressal commissions depending on claim value."
+      "id": 10,
+      "title": "Illegal Eviction Protections",
+      "category": "Tenancy Law",
+      "definition": "A tenant cannot be forcibly evicted without due legal process.",
+      "explanation": "Tenants are protected against illegal eviction by law. A landlord cannot remove a tenant without following proper legal procedures. This includes giving notice and obtaining a court order if required. Forced eviction without legal process is punishable. Tenants can seek legal protection against such actions.",
+      "punishment": "Illegal eviction may result in legal penalties against the landlord.",
+      "keywords": ["illegal eviction", "tenant protection", "rent law", "eviction rules"],
+      "source": "Tenancy and Rent Control Laws"
     },
     {
-    "id": 60,
-    "category": "Consumer Protection",
-    "title": "Return and Replacement Policies",
-    "content": "Retailers must clearly state return and replacement policies. Denial of legitimate returns may violate consumer protection norms."
+      "id": 10,
+      "title": "Illegal Eviction Protections",
+      "category": "Tenancy Law",
+      "definition": "A tenant cannot be evicted without a valid court order and due legal process.",
+      "explanation": "Landlords must follow proper legal procedures before evicting a tenant. This usually includes obtaining a valid court order and providing prior notice. Any attempt to remove a tenant without judicial approval is considered unlawful eviction. Tenants have the right to seek legal protection against such actions. Courts ensure that eviction is carried out fairly and lawfully.",
+      "punishment": "Illegal eviction may lead to legal penalties, fines, or compensation to the tenant.",
+      "keywords": ["illegal eviction", "court order", "tenant rights", "rent law", "forced eviction"],
+      "source": "Tenancy and Rent Control Laws"
     },
     {
-    "id": 61,
-    "category": "Consumer Protection",
-    "title": "Misleading Advertisements",
-    "content": "Advertisements that exaggerate product benefits or conceal risks may be subject to regulatory penalties."
+      "id": 11,
+      "title": "Notice Period for Termination",
+      "category": "Tenancy Law",
+      "definition": "Tenancy termination requires a prior notice period as per agreement or law.",
+      "explanation": "Most tenancy agreements clearly define the notice period required before ending the rental arrangement. If no agreement exists, statutory tenancy laws determine the minimum notice period, which usually ranges from 15 to 60 days. This ensures both landlord and tenant have adequate time to make necessary arrangements. Failure to provide notice may lead to legal disputes. Proper notice ensures fairness in termination.",
+      "punishment": "Violation of notice requirements may result in legal claims or penalties.",
+      "keywords": ["notice period", "termination", "tenancy agreement", "rent law", "legal notice"],
+      "source": "Tenancy Laws and Rental Agreements"
     },
     {
-    "id": 62,
-    "category": "Consumer Protection",
-    "title": "Insurance Claim Rejection",
-    "content": "Unjustified rejection of valid insurance claims can be challenged before consumer forums."
+      "id": 12,
+      "title": "Rent Increase Regulations",
+      "category": "Tenancy Law",
+      "definition": "Rent increases must follow legal guidelines and proper notice procedures.",
+      "explanation": "Landlords cannot arbitrarily increase rent without following statutory rules. Rent hikes must comply with rent control laws and should be communicated in advance. Sudden or excessive increases can be legally challenged by tenants. The purpose of these regulations is to protect tenants from unfair financial burden. Legal frameworks ensure balanced rights between landlords and tenants.",
+      "punishment": "Illegal rent increases may be challenged in court and may lead to penalties for the landlord.",
+      "keywords": ["rent increase", "rent control", "tenant rights", "rent law", "notice"],
+      "source": "Rent Control Acts and Tenancy Laws"
     },
     {
-    "id": 63,
-    "category": "Consumer Protection",
-    "title": "Banking Service Deficiency",
-    "content": "Banks may be liable for service deficiency in cases of unauthorized deductions or negligent handling of accounts."
+      "id": 13,
+      "title": "Maintenance Responsibilities",
+      "category": "Tenancy Law",
+      "definition": "Maintenance duties are shared between landlord and tenant based on the nature of repairs.",
+      "explanation": "Landlords are generally responsible for major repairs such as structural damage, plumbing, and essential services. Tenants, on the other hand, are responsible for minor damages caused by their negligence. The tenancy agreement often specifies these responsibilities clearly. Proper maintenance ensures the property remains in good condition. Disputes may arise if responsibilities are not clearly defined.",
+      "punishment": "Failure to fulfill maintenance duties may result in legal disputes or compensation claims.",
+      "keywords": ["maintenance", "repairs", "landlord duty", "tenant duty", "property upkeep"],
+      "source": "Tenancy Agreements and Rent Laws"
     },
     {
-    "id": 64,
-    "category": "Consumer Protection",
-    "title": "Medical Service Negligence",
-    "content": "Patients may file consumer complaints for medical negligence resulting in harm due to substandard service."
+      "id": 14,
+      "title": "Right to Quiet Enjoyment",
+      "category": "Tenancy Law",
+      "definition": "Tenants have the right to peaceful and uninterrupted use of rented property.",
+      "explanation": "The right to quiet enjoyment ensures that tenants can live in the rented property without unnecessary interference from the landlord. Landlords cannot enter the property without permission or valid reason. Any disturbance or harassment can be challenged legally. This right protects tenant privacy and comfort. Legal provisions ensure landlords respect this right.",
+      "punishment": "Violation may result in legal action against the landlord for harassment or interference.",
+      "keywords": ["quiet enjoyment", "tenant rights", "privacy", "landlord interference", "rent law"],
+      "source": "Tenancy Laws"
     },
     {
-    "id": 65,
-    "category": "Consumer Protection",
-    "title": "Travel and Tourism Complaints",
-    "content": "Travel agencies must deliver services as promised. Cancellation without refund may constitute service deficiency."
+      "id": 15,
+      "title": "Subletting Rules",
+      "category": "Tenancy Law",
+      "definition": "Subletting a rented property may require landlord permission.",
+      "explanation": "Subletting occurs when a tenant rents out the property to another person. In most cases, landlord consent is required as per the rental agreement. Unauthorized subletting can lead to termination of tenancy. Agreements often clearly define whether subletting is allowed. This ensures control over property usage and prevents misuse.",
+      "punishment": "Unauthorized subletting may result in eviction or termination of tenancy.",
+      "keywords": ["subletting", "tenant agreement", "rent law", "property rules", "landlord consent"],
+      "source": "Tenancy Agreements and Rent Laws"
     },
     {
-    "id": 66,
-    "category": "Consumer Protection",
-    "title": "Right to Safety",
-    "content": "Consumers have the right to protection against hazardous goods and services that pose health risks."
+      "id": 16,
+      "title": "Security Deposit Deductions",
+      "category": "Tenancy Law",
+      "definition": "Security deposit deductions must be reasonable and justified.",
+      "explanation": "Landlords can deduct amounts from the security deposit only for valid reasons such as damages beyond normal wear and tear. These deductions must be supported with proper evidence like bills or repair costs. Arbitrary deductions are not allowed under law. Tenants have the right to dispute unfair deductions. Transparency is required in handling deposits.",
+      "punishment": "Unjustified deductions may lead to legal claims or refund orders.",
+      "keywords": ["security deposit", "deductions", "tenant rights", "property damage", "rent dispute"],
+      "source": "Tenancy Laws"
     },
     {
-    "id": 67,
-    "category": "Consumer Protection",
-    "title": "Right to Choose",
-    "content": "Consumers have the right to access a variety of goods and services at competitive prices without forced bundling."
+      "id": 17,
+      "title": "Eviction for Non-Payment",
+      "category": "Tenancy Law",
+      "definition": "Failure to pay rent can lead to eviction after due legal process.",
+      "explanation": "If a tenant fails to pay rent, the landlord can initiate eviction proceedings after providing proper notice. The tenant must be given an opportunity to clear dues within the notice period. If payment is not made, legal action may be taken. Courts ensure that eviction follows due process. This protects both landlord and tenant rights.",
+      "punishment": "Non-payment may result in eviction and legal recovery of dues.",
+      "keywords": ["rent default", "non-payment", "eviction", "tenant law", "rent dispute"],
+      "source": "Tenancy and Rent Control Laws"
     },
     {
-    "id": 68,
-    "category": "Consumer Protection",
-    "title": "Delayed Delivery Compensation",
-    "content": "Failure to deliver goods within promised timeframe may entitle consumers to compensation."
+      "id": 18,
+      "title": "Tenant Rights During Sale of Property",
+      "category": "Tenancy Law",
+      "definition": "A tenant’s rights continue even if the rented property is sold to a new owner.",
+      "explanation": "When a rented property is sold, the new owner must respect the existing tenancy agreement. The tenant cannot be forced to vacate immediately. The new landlord steps into the role of the previous owner and must follow legal procedures for termination. This ensures stability and protection for tenants. Law prevents arbitrary eviction due to ownership transfer.",
+      "punishment": "Violation may lead to legal action or compensation claims by the tenant.",
+      "keywords": ["property sale", "tenant rights", "new landlord", "tenancy continuation"],
+      "source": "Tenancy Laws and Rent Control Acts"
     },
     {
-    "id": 69,
-    "category": "Consumer Protection",
-    "title": "Fraudulent Online Marketplace Sellers",
-    "content": "Consumers may report fraudulent online sellers to consumer authorities and seek refund for non-delivery or counterfeit products."
+      "id": 19,
+      "title": "Emergency Repairs Rights",
+      "category": "Tenancy Law",
+      "definition": "Tenants can carry out urgent repairs if the landlord fails to act.",
+      "explanation": "If a landlord neglects essential repairs such as water, electricity, or structural issues, tenants may undertake the repairs themselves. In such cases, they can deduct the cost from the rent, provided it is reasonable and documented. This ensures the property remains safe and habitable. Tenants must inform the landlord before taking such steps. Legal provisions protect tenants in emergencies.",
+      "punishment": "Improper handling may lead to disputes, but justified actions are legally protected.",
+      "keywords": ["emergency repair", "tenant rights", "maintenance", "rent deduction"],
+      "source": "Tenancy Laws"
+    },
+    {
+      "id": 20,
+      "title": "Eviction Due to Property Misuse",
+      "category": "Tenancy Law",
+      "definition": "Tenants can be evicted for using property for illegal or unauthorized purposes.",
+      "explanation": "If a tenant uses the rented property for activities not permitted by law or the agreement, such as illegal business or criminal acts, the landlord has the right to initiate eviction. Proper legal notice must still be given. Misuse of property violates tenancy conditions. Courts ensure eviction is justified and lawful. This protects property owners from misuse.",
+      "punishment": "Tenant may face eviction and legal consequences depending on the misuse.",
+      "keywords": ["property misuse", "illegal activity", "eviction", "tenant violation"],
+      "source": "Tenancy and Criminal Laws"
+    },
+    {
+      "id": 21,
+      "title": "Notice for Lease Renewal",
+      "category": "Tenancy Law",
+      "definition": "Tenants must inform landlords within a specified time to renew lease agreements.",
+      "explanation": "Lease agreements often include a clause requiring tenants to notify the landlord before renewal. This notice period ensures both parties can plan accordingly. Failure to notify may result in termination of tenancy. Renewal terms are usually predefined in the agreement. Legal clarity avoids disputes between landlord and tenant.",
+      "punishment": "Failure to comply may lead to loss of renewal rights or termination.",
+      "keywords": ["lease renewal", "notice", "tenancy agreement", "rent contract"],
+      "source": "Tenancy Agreements"
+    },
+    {
+      "id": 22,
+      "title": "Tenant Privacy Rights",
+      "category": "Tenancy Law",
+      "definition": "Tenants have the right to privacy in rented premises.",
+      "explanation": "Landlords cannot enter rented premises without prior notice, except in emergencies. This ensures tenant privacy and peaceful living. Any unauthorized entry may be considered a violation of tenant rights. Tenants can take legal action if their privacy is breached. Laws protect tenants from unnecessary interference.",
+      "punishment": "Violation may result in legal action against the landlord.",
+      "keywords": ["privacy", "tenant rights", "landlord entry", "rent law"],
+      "source": "Tenancy Laws"
+    },
+    {
+      "id": 23,
+      "title": "Utility Payment Obligations",
+      "category": "Tenancy Law",
+      "definition": "Responsibility for utility payments depends on the lease agreement.",
+      "explanation": "Utility payments such as electricity, water, and maintenance charges are usually defined in the lease agreement. Either the landlord or tenant may be responsible based on agreed terms. Clear agreements prevent disputes. Failure to pay utilities may result in penalties or service disconnection. Legal agreements ensure clarity in obligations.",
+      "punishment": "Non-payment may lead to penalties or legal disputes.",
+      "keywords": ["utility bills", "rent agreement", "tenant responsibility", "electricity charges"],
+      "source": "Tenancy Agreements"
+    },
+    {
+      "id": 24,
+      "title": "Eviction During Fixed-Term Lease",
+      "category": "Tenancy Law",
+      "definition": "Eviction during a fixed-term lease is allowed only under valid legal grounds.",
+      "explanation": "During a fixed-term lease, tenants cannot be evicted arbitrarily. Landlords must have valid legal reasons such as breach of agreement or illegal activity. Proper legal procedure must be followed. This ensures security for tenants during the lease period. Courts protect tenants from unfair eviction.",
+      "punishment": "Illegal eviction may result in penalties or compensation.",
+      "keywords": ["fixed lease", "eviction rules", "tenant protection", "rent law"],
+      "source": "Tenancy Laws"
+    },
+    {
+      "id": 25,
+      "title": "Tenant Compensation Rights",
+      "category": "Tenancy Law",
+      "definition": "Tenants can claim compensation if eviction is unlawful.",
+      "explanation": "If a tenant is evicted without following proper legal procedures, they have the right to seek compensation. Courts may award damages for inconvenience and loss. This ensures accountability for landlords. Legal remedies protect tenants from unfair treatment. Compensation depends on case circumstances.",
+      "punishment": "Landlord may be required to pay compensation or face legal penalties.",
+      "keywords": ["compensation", "illegal eviction", "tenant rights", "rent dispute"],
+      "source": "Tenancy Laws"
+    },
+    {
+      "id": 26,
+      "title": "Dispute Resolution Mechanisms",
+      "category": "Tenancy Law",
+      "definition": "Rental disputes can be resolved through legal forums like tribunals or courts.",
+      "explanation": "Conflicts between landlords and tenants can be addressed through rent control tribunals or civil courts. These forums provide fair resolution of disputes. Mediation may also be used to settle issues. Legal procedures ensure both parties are heard. This system promotes justice and fairness.",
+      "punishment": "Decisions may include compensation, eviction orders, or enforcement of agreements.",
+      "keywords": ["dispute resolution", "rent tribunal", "legal remedy", "tenant dispute"],
+      "source": "Rent Control Acts"
+    },
+    {
+      "id": 27,
+      "title": "Lease Agreement Enforcement",
+      "category": "Tenancy Law",
+      "definition": "Both landlord and tenant must follow the terms of the lease agreement.",
+      "explanation": "Lease agreements are legally binding documents. Both parties must adhere to the agreed terms and conditions. Any violation may lead to legal consequences. Agreements ensure clarity in rights and responsibilities. Courts enforce these agreements to maintain fairness.",
+      "punishment": "Violation may result in legal action or termination of agreement.",
+      "keywords": ["lease agreement", "contract", "tenant law", "legal obligation"],
+      "source": "Contract and Tenancy Laws"
+    },
+    {
+      "id": 28,
+      "title": "Eviction Due to Renovation",
+      "category": "Tenancy Law",
+      "definition": "Tenants may be evicted for renovation only under legal conditions.",
+      "explanation": "Landlords can evict tenants for major renovations, but only if required by law. Proper notice and justification must be provided. Renovation must be genuine and necessary. Tenants may have rights to reoccupy the property. Legal safeguards prevent misuse of this reason.",
+      "punishment": "Illegal eviction may lead to penalties or compensation claims.",
+      "keywords": ["renovation", "eviction", "tenant rights", "property repair"],
+      "source": "Tenancy Laws"
+    },
+    {
+      "id": 29,
+      "title": "Temporary Tenancy Protections",
+      "category": "Tenancy Law",
+      "definition": "Short-term tenants are also protected under tenancy laws.",
+      "explanation": "Even tenants with short-term or informal agreements have legal protections. Landlords must follow proper procedures for eviction and notice. Temporary tenancy does not remove legal rights. Laws ensure fair treatment regardless of duration. This prevents exploitation of short-term tenants.",
+      "punishment": "Violation may result in legal penalties or compensation.",
+      "keywords": ["temporary tenancy", "short term rent", "tenant protection", "rent law"],
+      "source": "Tenancy Laws"
+    },
+    {
+      "id": 30,
+      "title": "Unlawful Termination",
+      "category": "Employment Law",
+      "definition": "An employee cannot be terminated without valid reason where law requires just cause.",
+      "explanation": "Employment laws protect employees from unfair dismissal. Employers must provide valid reasons for termination where required by law. Arbitrary or unjust termination can be challenged. Employees may seek compensation or reinstatement. Legal frameworks ensure fairness in employment practices.",
+      "punishment": "Employer may face compensation claims or legal action.",
+      "keywords": ["termination", "employment law", "unfair dismissal", "labor rights"],
+      "source": "Labor Laws and Employment Regulations"
+    },
+    {
+      "id": 30,
+      "title": "Unlawful Termination",
+      "category": "Employment Law",
+      "definition": "Termination without following due legal or disciplinary procedure is unlawful.",
+      "explanation": "Employers must follow proper disciplinary procedures before terminating an employee. Arbitrary dismissal without valid reason or due process can be challenged in labor courts. Employees have the right to defend themselves before termination. Legal frameworks ensure fairness and transparency in employment practices. Unlawful termination violates employee rights.",
+      "punishment": "Employer may face compensation claims, reinstatement orders, or legal penalties.",
+      "keywords": ["termination", "unlawful dismissal", "labor court", "employee rights"],
+      "source": "Labor Laws and Employment Regulations"
+    },
+    {
+      "id": 31,
+      "title": "Notice Period Before Termination",
+      "category": "Employment Law",
+      "definition": "Employers must provide notice or salary in lieu before terminating an employee.",
+      "explanation": "Employment laws and contracts require employers to provide a notice period before termination. Alternatively, salary in lieu of notice may be given. This ensures employees have time to seek alternative employment. Immediate termination is allowed only in cases of serious misconduct. Proper notice promotes fairness in employment.",
+      "punishment": "Failure to provide notice may result in compensation claims by the employee.",
+      "keywords": ["notice period", "termination", "salary in lieu", "employment law"],
+      "source": "Labor Laws and Employment Contracts"
+    },
+    {
+      "id": 32,
+      "title": "Severance Pay Entitlement",
+      "category": "Employment Law",
+      "definition": "Employees may receive compensation when laid off due to redundancy or restructuring.",
+      "explanation": "When employees lose their job due to organizational restructuring or redundancy, they may be entitled to severance pay. The amount depends on tenure, salary, and applicable laws. Severance provides financial support during unemployment. Employers must follow legal guidelines while calculating compensation. This protects employees from sudden financial hardship.",
+      "punishment": "Non-payment may lead to legal action or compensation orders.",
+      "keywords": ["severance pay", "layoff", "compensation", "employment rights"],
+      "source": "Labor Laws"
+    },
+    {
+      "id": 33,
+      "title": "Wrongful Dismissal Remedies",
+      "category": "Employment Law",
+      "definition": "Employees can seek remedies if dismissed unfairly.",
+      "explanation": "If an employee is dismissed without valid reason or due process, it is considered wrongful dismissal. The employee can approach labor tribunals for justice. Remedies may include reinstatement, back wages, or financial compensation. Courts evaluate the fairness of termination. Legal provisions protect employees from unjust treatment.",
+      "punishment": "Employer may be ordered to reinstate the employee or pay compensation.",
+      "keywords": ["wrongful dismissal", "labor tribunal", "reinstatement", "compensation"],
+      "source": "Employment and Labor Laws"
+    },
+    {
+      "id": 34,
+      "title": "Workplace Discrimination",
+      "category": "Employment Law",
+      "definition": "Discrimination in employment based on protected characteristics is prohibited.",
+      "explanation": "Employment laws prohibit discrimination based on gender, religion, caste, disability, or other protected attributes. Employers must ensure equal opportunities in hiring, promotion, and working conditions. Discriminatory practices can be challenged legally. This promotes fairness and inclusivity in workplaces. Laws ensure equal treatment of all employees.",
+      "punishment": "Employers may face legal penalties, fines, or compensation claims.",
+      "keywords": ["discrimination", "equal opportunity", "employment rights", "workplace law"],
+      "source": "Equality and Employment Laws"
+    },
+    {
+      "id": 35,
+      "title": "Equal Pay for Equal Work",
+      "category": "Employment Law",
+      "definition": "Employees performing similar work must receive equal pay without discrimination.",
+      "explanation": "The principle of equal pay ensures that employees doing similar work under similar conditions are paid equally. Discrimination in wages based on gender or other factors is prohibited. Employers must maintain fairness in compensation. This promotes equality and justice in employment. Legal provisions enforce this right.",
+      "punishment": "Violation may lead to penalties and compensation claims.",
+      "keywords": ["equal pay", "wages", "discrimination", "salary fairness"],
+      "source": "Labor Laws"
+    },
+    {
+      "id": 36,
+      "title": "Overtime Compensation",
+      "category": "Employment Law",
+      "definition": "Employees working extra hours are entitled to overtime pay.",
+      "explanation": "Employees who work beyond prescribed working hours must be compensated with overtime pay. The rate is usually higher than normal wages. Labor laws define the limits and compensation structure. Employers must maintain proper records of working hours. This ensures fair payment for additional work.",
+      "punishment": "Non-payment may lead to legal action or penalties.",
+      "keywords": ["overtime", "extra hours", "wages", "labor law"],
+      "source": "Labor Laws"
+    },
+    {
+      "id": 37,
+      "title": "Maternity Benefits",
+      "category": "Employment Law",
+      "definition": "Female employees are entitled to maternity leave and job protection.",
+      "explanation": "Maternity laws provide paid leave and job security to female employees during pregnancy. Employers cannot terminate employees during this period. These benefits ensure the health and well-being of both mother and child. The duration and conditions are defined by law. This promotes gender equality in the workplace.",
+      "punishment": "Violation may result in penalties or legal action against the employer.",
+      "keywords": ["maternity leave", "women rights", "employment law", "job protection"],
+      "source": "Maternity Benefit Act"
+    },
+    {
+      "id": 38,
+      "title": "Workplace Safety Obligations",
+      "category": "Employment Law",
+      "definition": "Employers must ensure a safe and healthy working environment.",
+      "explanation": "Employers are responsible for maintaining workplace safety and preventing hazards. They must comply with occupational safety standards. Employees should be provided with proper equipment and training. Unsafe conditions can be reported to authorities. Laws ensure protection from workplace injuries.",
+      "punishment": "Employers may face penalties or legal action for safety violations.",
+      "keywords": ["workplace safety", "employee protection", "health regulations", "labor law"],
+      "source": "Occupational Safety Laws"
+    },
+    {
+      "id": 39,
+      "title": "Sexual Harassment Protection",
+      "category": "Employment Law",
+      "definition": "Employees have the right to protection against sexual harassment at workplace.",
+      "explanation": "Employers must establish an Internal Complaints Committee to handle sexual harassment cases. Complaints must be investigated fairly and confidentially. Victims are protected from retaliation. Laws ensure a safe and respectful workplace. Strict action is taken against offenders.",
+      "punishment": "Offenders may face disciplinary or legal action; employers may face penalties.",
+      "keywords": ["sexual harassment", "POSH", "workplace safety", "employee rights"],
+      "source": "POSH Act (Prevention of Sexual Harassment Act)"
+    },
+    {
+      "id": 40,
+      "title": "Probation Period Rights",
+      "category": "Employment Law",
+      "definition": "Employees on probation are entitled to fair treatment and contractual rights.",
+      "explanation": "Even during probation, employees must be treated fairly and in accordance with contract terms. Termination during probation must follow agreed conditions. Employers cannot act arbitrarily. Legal protections still apply during probation. This ensures fairness in early employment stages.",
+      "punishment": "Unfair termination may lead to legal claims.",
+      "keywords": ["probation", "employment contract", "termination", "employee rights"],
+      "source": "Employment Contracts and Labor Laws"
+    },
+    {
+      "id": 41,
+      "title": "Minimum Wage Compliance",
+      "category": "Employment Law",
+      "definition": "Employers must pay at least the statutory minimum wage.",
+      "explanation": "Minimum wage laws ensure that employees receive fair compensation for their work. The wage is defined based on industry and region. Employers cannot pay below this limit. These laws protect workers from exploitation. Authorities monitor compliance and enforce penalties for violations.",
+      "punishment": "Non-compliance may result in fines, penalties, or legal action.",
+      "keywords": ["minimum wage", "salary", "labor law", "worker rights"],
+      "source": "Minimum Wages Act"
+    },
+    {
+      "id": 42,
+      "title": "Paid Leave Entitlements",
+      "category": "Employment Law",
+      "definition": "Employees are entitled to various types of paid leave under employment laws.",
+      "explanation": "Employment laws provide employees with benefits such as annual leave, sick leave, and other statutory leaves. These leaves ensure work-life balance and employee well-being. Employers must grant leave as per legal requirements and company policies. Denial of entitled leave may be challenged legally. Leave policies are defined under labor regulations.",
+      "punishment": "Violation may lead to legal claims or penalties against the employer.",
+      "keywords": ["paid leave", "annual leave", "sick leave", "employee benefits"],
+      "source": "Labor Laws and Employment Regulations"
+    },
+    {
+      "id": 43,
+      "title": "Employment Contract Enforcement",
+      "category": "Employment Law",
+      "definition": "Employment contracts are legally binding on both employer and employee.",
+      "explanation": "Both parties must follow the terms mentioned in the employment contract. Any modification must be done with mutual consent. Contracts define roles, salary, notice period, and obligations. Violation of contract terms may lead to legal consequences. Courts enforce these agreements to maintain fairness.",
+      "punishment": "Breach of contract may result in legal action or compensation.",
+      "keywords": ["employment contract", "agreement", "legal obligation", "labor law"],
+      "source": "Employment Contracts and Labor Laws"
+    },
+    {
+      "id": 44,
+      "title": "Unpaid Salary Recovery",
+      "category": "Employment Law",
+      "definition": "Employees have the right to recover unpaid or delayed wages.",
+      "explanation": "If an employer fails to pay salary on time, employees can file a complaint with labor authorities. Legal provisions ensure timely payment of wages. Authorities can direct employers to clear dues. Delayed or unpaid salary is a violation of employee rights. Employees may also seek compensation for delay.",
+      "punishment": "Employer may face penalties, fines, or legal action.",
+      "keywords": ["salary", "unpaid wages", "labor complaint", "employee rights"],
+      "source": "Labor Laws"
+    },
+    {
+      "id": 45,
+      "title": "Industrial Dispute Resolution",
+      "category": "Employment Law",
+      "definition": "Disputes between employers and employees are resolved through legal mechanisms.",
+      "explanation": "Industrial disputes can arise due to wages, working conditions, or termination issues. These disputes are resolved through conciliation, arbitration, or labor courts. Legal frameworks ensure fair hearing for both parties. Resolution mechanisms aim to maintain industrial harmony. Proper procedures must be followed for dispute resolution.",
+      "punishment": "Decisions may include compensation, reinstatement, or penalties.",
+      "keywords": ["industrial dispute", "labor court", "arbitration", "conciliation"],
+      "source": "Industrial Disputes Act"
+    },
+    {
+      "id": 46,
+      "title": "Retrenchment Rules",
+      "category": "Employment Law",
+      "definition": "Retrenchment must follow legal procedures including notice and compensation.",
+      "explanation": "Retrenchment refers to termination due to business reasons like downsizing. Employers must follow statutory procedures such as giving notice and paying compensation. In some cases, government approval is required. These rules protect employees from arbitrary job loss. Legal compliance ensures fairness.",
+      "punishment": "Non-compliance may lead to penalties or reinstatement orders.",
+      "keywords": ["retrenchment", "layoff", "compensation", "labor law"],
+      "source": "Industrial Disputes Act"
+    },
+    {
+      "id": 47,
+      "title": "Non-Compete Agreements",
+      "category": "Employment Law",
+      "definition": "Non-compete clauses must be reasonable to be enforceable.",
+      "explanation": "Employers may include non-compete clauses to restrict employees from joining competitors. However, such restrictions must be reasonable in terms of time, location, and scope. Unreasonable clauses may not be enforceable in court. These agreements aim to protect business interests. Legal scrutiny ensures fairness.",
+      "punishment": "Unreasonable clauses may be declared invalid by courts.",
+      "keywords": ["non-compete", "employment contract", "restriction", "labor law"],
+      "source": "Contract and Employment Laws"
+    },
+    {
+      "id": 48,
+      "title": "Employee Grievance Redressal",
+      "category": "Employment Law",
+      "definition": "Employers must provide mechanisms for employees to raise grievances.",
+      "explanation": "Organizations are required to establish grievance redressal systems. Employees can raise concerns regarding workplace issues without fear of retaliation. Proper mechanisms ensure quick and fair resolution. This promotes a healthy work environment. Legal frameworks encourage transparency and fairness.",
+      "punishment": "Failure may result in legal action or penalties.",
+      "keywords": ["grievance", "employee complaint", "workplace issues", "labor law"],
+      "source": "Labor Laws"
+    },
+    {
+      "id": 49,
+      "title": "Resignation Notice Requirements",
+      "category": "Employment Law",
+      "definition": "Employees must serve notice period before resignation as per contract.",
+      "explanation": "Employment contracts usually specify a notice period for resignation. Employees must serve this period unless waived by the employer. This ensures smooth transition and handover of responsibilities. Failure to comply may result in salary deduction or legal issues. Proper notice maintains professional conduct.",
+      "punishment": "Non-compliance may lead to financial deductions or legal consequences.",
+      "keywords": ["resignation", "notice period", "employment contract", "labor law"],
+      "source": "Employment Contracts"
+    },
+    {
+      "id": 50,
+      "title": "Right to Refund for Defective Products",
+      "category": "Consumer Protection",
+      "definition": "Consumers have the right to refund, replacement, or repair for defective products.",
+      "explanation": "If a product is defective or does not match its description, consumers can demand repair, replacement, or refund. Consumer laws protect buyers from unfair practices. Complaints can be filed in consumer courts. Sellers must ensure product quality and transparency. Legal provisions ensure consumer protection.",
+      "punishment": "Sellers may face penalties, compensation claims, or legal action.",
+      "keywords": ["refund", "defective product", "consumer rights", "replacement"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 51,
+      "title": "Unfair Trade Practices",
+      "category": "Consumer Protection",
+      "definition": "Misleading or deceptive business practices are prohibited under law.",
+      "explanation": "Unfair trade practices include false advertisements, misleading claims, and deceptive sales tactics. Consumers can challenge such practices in consumer courts. Laws ensure fair trade and protect consumer interests. Businesses must provide accurate information. Violations attract strict legal action.",
+      "punishment": "Businesses may face penalties, fines, or compensation orders.",
+      "keywords": ["unfair trade", "misleading ads", "consumer protection", "fraud"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 52,
+      "title": "Right to Product Information",
+      "category": "Consumer Protection",
+      "definition": "Consumers have the right to accurate product information.",
+      "explanation": "Consumers must be provided with correct details about product quality, quantity, ingredients, and price. This helps them make informed decisions. Misrepresentation of product information is illegal. Laws ensure transparency in the market. Consumers can take legal action if misled.",
+      "punishment": "Violation may lead to penalties or compensation claims.",
+      "keywords": ["product information", "consumer rights", "transparency", "market law"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 53,
+      "title": "Deficiency in Service",
+      "category": "Consumer Protection",
+      "definition": "Failure to provide services as promised may amount to deficiency in service.",
+      "explanation": "Service providers are required to deliver services as per agreed terms and reasonable standards. If they fail to meet contractual obligations or expected service quality, it is considered deficiency in service. Consumers can file complaints for such deficiencies. This includes delays, poor quality, or incomplete services. Laws ensure accountability of service providers.",
+      "punishment": "Service providers may be ordered to compensate consumers or face penalties.",
+      "keywords": ["service deficiency", "consumer complaint", "poor service", "consumer rights"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 54,
+      "title": "E-Commerce Consumer Rights",
+      "category": "Consumer Protection",
+      "definition": "Online consumers have rights to transparency and protection in digital transactions.",
+      "explanation": "E-commerce platforms must ensure transparent pricing, clear return policies, and protection against fraudulent sellers. Consumers should receive accurate product descriptions and secure payment systems. Any violation can be challenged under consumer laws. Online transactions are governed by specific regulations. This ensures safe digital shopping.",
+      "punishment": "Violation may lead to penalties or compensation claims.",
+      "keywords": ["e-commerce", "online shopping", "consumer rights", "digital transactions"],
+      "source": "Consumer Protection (E-Commerce) Rules"
+    },
+    {
+      "id": 55,
+      "title": "Warranty Enforcement",
+      "category": "Consumer Protection",
+      "definition": "Sellers and manufacturers must honor valid warranty commitments.",
+      "explanation": "Products sold with a warranty must be repaired or replaced if defects arise within the warranty period. Manufacturers and sellers are legally bound to fulfill warranty terms. Refusal to honor warranty is a violation of consumer rights. Consumers can approach forums for enforcement. This ensures product reliability and trust.",
+      "punishment": "Non-compliance may result in compensation or legal penalties.",
+      "keywords": ["warranty", "repair", "replacement", "consumer rights"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 56,
+      "title": "Overcharging Complaints",
+      "category": "Consumer Protection",
+      "definition": "Charging above the maximum retail price or hidden fees is unlawful.",
+      "explanation": "Consumers cannot be charged more than the maximum retail price (MRP) printed on products. Hidden charges without prior disclosure are also illegal. Such practices can be challenged legally. Authorities ensure fair pricing in the market. Consumers can file complaints against overcharging.",
+      "punishment": "Sellers may face fines, penalties, or legal action.",
+      "keywords": ["overcharging", "MRP", "consumer complaint", "pricing"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 57,
+      "title": "Product Liability Claims",
+      "category": "Consumer Protection",
+      "definition": "Manufacturers are liable for damages caused by defective products.",
+      "explanation": "If a defective product causes injury, damage, or financial loss, the manufacturer can be held liable. Consumers can file claims for compensation. Product liability ensures accountability in manufacturing. It covers design defects, manufacturing defects, and inadequate warnings. Laws protect consumers from unsafe products.",
+      "punishment": "Manufacturers may be required to pay compensation or face legal penalties.",
+      "keywords": ["product liability", "defective product", "compensation", "consumer law"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 58,
+      "title": "Right to Fair Billing",
+      "category": "Consumer Protection",
+      "definition": "Consumers have the right to transparent and accurate billing.",
+      "explanation": "Businesses must provide clear and accurate billing without unauthorized charges. Hidden fees or misleading billing practices are prohibited. Consumers should be able to understand charges applied. Any discrepancies can be challenged legally. Fair billing ensures transparency and trust.",
+      "punishment": "Violation may result in penalties or compensation claims.",
+      "keywords": ["billing", "fair charges", "consumer rights", "transparency"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 59,
+      "title": "Complaint Filing Procedure",
+      "category": "Consumer Protection",
+      "definition": "Consumers can file complaints before appropriate consumer forums.",
+      "explanation": "Consumers can approach district, state, or national consumer dispute redressal commissions depending on claim value. Complaints must include necessary details and evidence. Legal procedures ensure fair hearing. Online complaint filing options are also available. This system ensures access to justice for consumers.",
+      "punishment": "Decisions may include compensation, replacement, or penalties.",
+      "keywords": ["consumer complaint", "consumer court", "legal remedy", "dispute"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 60,
+      "title": "Return and Replacement Policies",
+      "category": "Consumer Protection",
+      "definition": "Sellers must clearly define return and replacement policies.",
+      "explanation": "Retailers are required to inform consumers about return and replacement conditions. Denying legitimate returns without valid reason violates consumer rights. Clear policies help avoid disputes. Consumers can take legal action if rights are denied. Transparency in policies is essential for fair trade.",
+      "punishment": "Violation may lead to penalties or compensation claims.",
+      "keywords": ["return policy", "replacement", "consumer rights", "refund"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 61,
+      "title": "Misleading Advertisements",
+      "category": "Consumer Protection",
+      "definition": "Advertisements must not mislead consumers about products or services.",
+      "explanation": "Advertisements that exaggerate product benefits or hide risks are considered misleading. Such practices deceive consumers and are prohibited by law. Regulatory authorities monitor advertisements. Consumers can challenge misleading claims. Laws ensure truthful marketing practices.",
+      "punishment": "Companies may face fines, penalties, or legal action.",
+      "keywords": ["advertisement", "misleading claims", "consumer law", "marketing"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 62,
+      "title": "Insurance Claim Rejection",
+      "category": "Consumer Protection",
+      "definition": "Unjust rejection of valid insurance claims can be challenged legally.",
+      "explanation": "Insurance companies must process claims fairly and according to policy terms. Wrongful rejection of claims violates consumer rights. Consumers can approach consumer forums for relief. Proper documentation is required for claims. Laws ensure fairness in insurance services.",
+      "punishment": "Insurance companies may be ordered to settle claims and pay compensation.",
+      "keywords": ["insurance", "claim rejection", "consumer rights", "policy"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 63,
+      "title": "Banking Service Deficiency",
+      "category": "Consumer Protection",
+      "definition": "Banks are liable for deficiencies in service affecting customers.",
+      "explanation": "Banks must handle customer accounts responsibly and securely. Unauthorized deductions, delays, or negligence may be considered service deficiency. Customers can file complaints for such issues. Legal provisions ensure accountability of banks. Consumer forums provide remedies for affected customers.",
+      "punishment": "Banks may be required to compensate customers or face penalties.",
+      "keywords": ["banking", "service deficiency", "unauthorized deduction", "consumer law"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 64,
+      "title": "Medical Service Negligence",
+      "category": "Consumer Protection",
+      "definition": "Patients can file complaints for medical negligence due to substandard service.",
+      "explanation": "Medical professionals and hospitals are expected to provide standard care to patients. If negligence results in harm or injury, it can be challenged under consumer laws. Patients can file complaints in consumer forums for compensation. Medical negligence includes wrong treatment, delay, or lack of proper care. Laws ensure accountability in healthcare services.",
+      "punishment": "Hospitals or doctors may be liable to pay compensation or face legal action.",
+      "keywords": ["medical negligence", "healthcare", "consumer rights", "hospital complaint"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 65,
+      "title": "Travel and Tourism Complaints",
+      "category": "Consumer Protection",
+      "definition": "Travel service providers must deliver services as promised to consumers.",
+      "explanation": "Travel agencies and tour operators must provide services according to agreed terms. Cancellation without refund or failure to deliver promised services may amount to deficiency in service. Consumers can file complaints in consumer courts. Proper documentation helps in resolving disputes. Laws protect travelers from unfair practices.",
+      "punishment": "Service providers may face penalties or be required to compensate consumers.",
+      "keywords": ["travel complaint", "tourism", "refund", "service deficiency"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 66,
+      "title": "Right to Safety",
+      "category": "Consumer Protection",
+      "definition": "Consumers have the right to protection from hazardous goods and services.",
+      "explanation": "Consumers must be protected against products and services that pose risks to health and safety. Manufacturers must ensure product safety standards. Unsafe goods can be reported and removed from the market. This right ensures consumer well-being. Regulatory authorities enforce safety standards.",
+      "punishment": "Manufacturers may face penalties, recalls, or legal action.",
+      "keywords": ["consumer safety", "hazardous goods", "product safety", "consumer law"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 67,
+      "title": "Right to Choose",
+      "category": "Consumer Protection",
+      "definition": "Consumers have the right to choose from a variety of goods and services.",
+      "explanation": "Consumers should have access to multiple options at competitive prices. Forced bundling or restricting choices is unfair practice. This right promotes competition and fair trade. Businesses must not limit consumer freedom. Laws ensure availability of alternatives in the market.",
+      "punishment": "Violation may result in penalties or legal action.",
+      "keywords": ["right to choose", "consumer freedom", "fair trade", "market competition"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 68,
+      "title": "Delayed Delivery Compensation",
+      "category": "Consumer Protection",
+      "definition": "Consumers may claim compensation for delayed delivery of goods.",
+      "explanation": "If goods are not delivered within the promised timeframe, consumers may seek compensation. Delays can cause inconvenience and financial loss. Sellers must adhere to delivery commitments. Consumers can file complaints if delays are unreasonable. Laws ensure timely delivery obligations.",
+      "punishment": "Sellers may be required to compensate consumers or face penalties.",
+      "keywords": ["delivery delay", "compensation", "consumer rights", "online shopping"],
+      "source": "Consumer Protection Act"
+    },
+    {
+      "id": 69,
+      "title": "Fraudulent Online Marketplace Sellers",
+      "category": "Consumer Protection",
+      "definition": "Consumers can report fraudulent online sellers and seek refunds.",
+      "explanation": "Online marketplaces must ensure seller authenticity. Fraudulent sellers who fail to deliver goods or provide counterfeit products can be reported. Consumers can seek refunds and file complaints. E-commerce laws provide protection against such frauds. Awareness helps prevent online scams.",
+      "punishment": "Fraudulent sellers may face legal action, penalties, or platform bans.",
+      "keywords": ["online fraud", "fake seller", "e-commerce", "consumer complaint"],
+      "source": "Consumer Protection (E-Commerce) Rules"
     },
     {
       "id": 70,
-      "category": "Cyber Law",
       "title": "Unauthorized Access to Computer Systems",
-      "content": "Unauthorized access to computer systems or networks without permission is punishable under cybercrime laws. Victims may file complaints with cybercrime authorities."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Accessing computer systems without permission is a punishable offense.",
+      "explanation": "Unauthorized access to computer systems or networks is considered cybercrime. Hackers who access data without consent can be prosecuted. Victims can report such incidents to cybercrime authorities. Laws protect digital infrastructure and user data. Strict penalties are imposed for such activities.",
+      "punishment": "Offenders may face imprisonment, fines, or both.",
+      "keywords": ["hacking", "unauthorized access", "cybercrime", "data breach"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 71,
-      "category": "Cyber Law",
       "title": "Online Banking Fraud",
-      "content": "Victims of unauthorized online banking transactions may report incidents immediately to banks and cybercrime cells for reversal and investigation."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Unauthorized online banking transactions can be reported for recovery and investigation.",
+      "explanation": "Online banking fraud includes unauthorized withdrawals or transactions. Victims must immediately report incidents to banks and cybercrime cells. Quick reporting increases chances of recovery. Banks are required to investigate and take action. Laws ensure protection of financial transactions.",
+      "punishment": "Offenders may face imprisonment, fines, or both.",
+      "keywords": ["bank fraud", "online transaction", "cybercrime", "financial fraud"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 72,
-      "category": "Cyber Law",
       "title": "Identity Theft Protection",
-      "content": "Using another person's identity, credentials, or personal data for fraudulent purposes constitutes identity theft and is legally punishable."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Using someone else's identity or data fraudulently is a punishable offense.",
+      "explanation": "Identity theft involves misuse of personal data such as passwords, Aadhaar, or bank details. It is a serious cybercrime. Victims can file complaints with authorities. Laws ensure protection of personal data. Awareness is important to prevent such frauds.",
+      "punishment": "Offenders may face imprisonment, fines, or both.",
+      "keywords": ["identity theft", "data misuse", "cybercrime", "fraud"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 73,
-      "category": "Cyber Law",
       "title": "Phishing and Email Scams",
-      "content": "Phishing attempts involving fake emails or websites designed to steal sensitive information are criminal offenses under cyber regulations."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Phishing attempts to steal sensitive information are punishable cyber offenses.",
+      "explanation": "Phishing involves fake emails or websites designed to trick users into sharing sensitive data. These scams can lead to financial loss or identity theft. Victims should report incidents immediately. Cyber laws penalize such fraudulent activities. Awareness helps in prevention.",
+      "punishment": "Offenders may face imprisonment, fines, or both.",
+      "keywords": ["phishing", "email scam", "cyber fraud", "data theft"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 74,
-      "category": "Cyber Law",
       "title": "Cyber Stalking Laws",
-      "content": "Repeated online harassment, threats, or monitoring of an individual through digital platforms may amount to cyber stalking."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Repeated online harassment or monitoring may constitute cyber stalking.",
+      "explanation": "Cyber stalking involves repeated online harassment, threats, or monitoring of an individual using digital platforms. It can cause emotional distress and safety concerns. Victims can report such behavior to cybercrime authorities. Laws protect individuals from online harassment. Strict action is taken against offenders.",
+      "punishment": "Offenders may face imprisonment, fines, or both.",
+      "keywords": ["cyber stalking", "online harassment", "threats", "cybercrime"],
+      "source": "Information Technology Act and IPC Provisions"
+    },
+    {
       "id": 75,
-      "category": "Cyber Law",
       "title": "Data Privacy Rights",
-      "content": "Individuals have the right to protection of personal data. Organizations must process data lawfully and ensure data security."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Individuals have the right to protection of their personal data.",
+      "explanation": "Data privacy laws ensure that personal information is collected and processed lawfully. Organizations must protect user data and prevent unauthorized access. Individuals have the right to know how their data is used. Data breaches can lead to serious consequences. Legal frameworks ensure data security and privacy.",
+      "punishment": "Organizations may face penalties, fines, or legal action for violations.",
+      "keywords": ["data privacy", "personal data", "data protection", "cyber law"],
+      "source": "Information Technology Act and Data Protection Laws"
+    },
+    {
       "id": 76,
-      "category": "Cyber Law",
       "title": "Social Media Defamation",
-      "content": "Publishing defamatory statements about a person on social media platforms may attract civil and criminal liability."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Posting defamatory content online may result in legal liability.",
+      "explanation": "Defamation on social media includes publishing false statements that harm a person's reputation. Both civil and criminal actions can be taken against offenders. Victims can file complaints in court. Laws apply equally to online and offline defamation. Responsible use of digital platforms is essential.",
+      "punishment": "Offenders may face fines, imprisonment, or compensation claims.",
+      "keywords": ["defamation", "social media", "reputation", "online law"],
+      "source": "IPC and Information Technology Act"
+    },
+    {
       "id": 77,
-      "category": "Cyber Law",
       "title": "Cyberbullying Protections",
-      "content": "Online bullying or harassment targeting individuals, especially minors, may be actionable under cyber safety laws."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Online bullying or harassment is punishable under cyber safety laws.",
+      "explanation": "Cyberbullying involves using digital platforms to harass or intimidate individuals, especially minors. It can have serious psychological effects. Victims can report such incidents to authorities. Laws ensure protection against online abuse. Awareness and reporting are important to prevent cyberbullying.",
+      "punishment": "Offenders may face legal action, including fines or imprisonment.",
+      "keywords": ["cyberbullying", "online harassment", "child safety", "cybercrime"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 78,
-      "category": "Cyber Law",
       "title": "Hacking Penalties",
-      "content": "Deliberate hacking, malware distribution, or system damage may result in imprisonment and financial penalties."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Unauthorized hacking or system damage is punishable under cyber laws.",
+      "explanation": "Hacking involves unauthorized access to computer systems with intent to steal, alter, or destroy data. It is a serious cyber offense. Laws impose strict penalties to protect digital infrastructure. Victims can report incidents to cybercrime authorities. Prevention measures are essential for security.",
+      "punishment": "Offenders may face imprisonment, fines, or both.",
+      "keywords": ["hacking", "cybercrime", "data breach", "malware"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 79,
-      "category": "Cyber Law",
       "title": "Digital Evidence Admissibility",
-      "content": "Electronic records and digital evidence may be admissible in court if authenticated according to legal standards."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Electronic records are admissible in court if properly authenticated.",
+      "explanation": "Digital evidence such as emails, logs, and electronic records can be used in legal proceedings. They must meet authenticity and integrity requirements. Courts rely on proper certification of electronic records. This ensures fairness in trials. Legal provisions govern admissibility of digital evidence.",
+      "punishment": "Improper evidence may be rejected by courts.",
+      "keywords": ["digital evidence", "electronic records", "cyber law", "court"],
+      "source": "Indian Evidence Act (IT Amendments)"
+    },
+    {
       "id": 80,
-      "category": "Cyber Law",
       "title": "Online Intellectual Property Infringement",
-      "content": "Unauthorized sharing or downloading of copyrighted content may violate intellectual property laws."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Unauthorized use of copyrighted content online is illegal.",
+      "explanation": "Sharing or downloading copyrighted content without permission violates intellectual property laws. This includes movies, music, and software. Rights holders can take legal action. Laws protect creators and their work. Awareness helps prevent violations.",
+      "punishment": "Offenders may face fines, penalties, or imprisonment.",
+      "keywords": ["copyright", "piracy", "IP law", "digital content"],
+      "source": "Copyright Act and IT Act"
+    },
+    {
       "id": 81,
-      "category": "Cyber Law",
       "title": "Cyber Terrorism",
-      "content": "Cyber attacks targeting national security or critical infrastructure may constitute cyber terrorism under special statutes."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Cyber attacks targeting national security are considered cyber terrorism.",
+      "explanation": "Cyber terrorism includes attacks on critical infrastructure, government systems, or national security networks. These acts can disrupt essential services and threaten public safety. Laws impose strict punishment for such offenses. Authorities take serious action against offenders. Security measures are crucial to prevent such attacks.",
+      "punishment": "Offenders may face severe imprisonment or life sentence.",
+      "keywords": ["cyber terrorism", "national security", "cyber attack", "hacking"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 82,
-      "category": "Cyber Law",
       "title": "Electronic Contract Validity",
-      "content": "Contracts executed electronically through digital signatures may be legally enforceable."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Electronic contracts are legally valid if properly executed.",
+      "explanation": "Contracts formed through electronic means, such as digital signatures, are legally enforceable. E-commerce transactions rely on such contracts. Legal frameworks ensure authenticity and validity. Parties must consent to terms. This supports digital business operations.",
+      "punishment": "Invalid contracts may not be enforceable in court.",
+      "keywords": ["e-contract", "digital signature", "online agreement", "cyber law"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 83,
-      "category": "Cyber Law",
       "title": "Child Online Protection",
-      "content": "Distribution of child exploitation material online is a serious criminal offense under cyber laws."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Online exploitation of children is a serious criminal offense.",
+      "explanation": "Distribution or possession of child exploitation material is strictly prohibited. Laws protect minors from online abuse. Authorities take strict action against offenders. Reporting such crimes is essential. Awareness helps prevent exploitation.",
+      "punishment": "Offenders may face severe imprisonment and fines.",
+      "keywords": ["child protection", "cybercrime", "online abuse", "illegal content"],
+      "source": "IT Act and POCSO Act"
+    },
+    {
       "id": 84,
-      "category": "Cyber Law",
       "title": "Online Marketplace Fraud",
-      "content": "Fraudulent sellers operating through digital platforms may be prosecuted under cyber fraud provisions."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Fraudulent activities on online platforms are punishable under cyber laws.",
+      "explanation": "Online marketplace fraud includes fake listings, non-delivery of goods, or counterfeit products. Consumers can report such frauds to authorities. Laws ensure accountability of digital platforms. Awareness helps prevent fraud. Legal action can be taken against offenders.",
+      "punishment": "Offenders may face imprisonment, fines, or both.",
+      "keywords": ["online fraud", "marketplace", "cybercrime", "e-commerce"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 85,
-      "category": "Cyber Law",
       "title": "Data Breach Liability",
-      "content": "Organizations may be held liable for failing to protect sensitive data from breaches or unauthorized access."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Organizations are liable for failing to protect sensitive data.",
+      "explanation": "Data breaches occur when sensitive information is accessed without authorization. Organizations must implement security measures to prevent breaches. Failure to do so may result in liability. Laws ensure data protection and accountability. Victims can seek legal remedies.",
+      "punishment": "Organizations may face fines, penalties, or legal action.",
+      "keywords": ["data breach", "data security", "cyber law", "privacy"],
+      "source": "IT Act and Data Protection Laws"
+    },
+    {
       "id": 86,
-      "category": "Cyber Law",
       "title": "Cyber Extortion",
-      "content": "Demanding money or favors by threatening to release private digital information constitutes cyber extortion."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Threatening to release private data for money is cyber extortion.",
+      "explanation": "Cyber extortion involves demanding money by threatening to leak sensitive information. It is a serious cybercrime. Victims should report incidents immediately. Laws provide strict punishment for such acts. Awareness helps prevent victimization.",
+      "punishment": "Offenders may face imprisonment, fines, or both.",
+      "keywords": ["cyber extortion", "blackmail", "data threat", "cybercrime"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 87,
-      "category": "Cyber Law",
       "title": "Ransomware Attacks",
-      "content": "Deployment of ransomware to encrypt systems and demand payment is punishable under cybercrime statutes."
-      },
-      {
+      "category": "Cyber Law",
+      "definition": "Ransomware attacks involve encrypting systems and demanding payment.",
+      "explanation": "Ransomware is malicious software that locks systems and demands payment for access. It can cause major financial and data loss. Victims should report such attacks immediately. Laws punish cybercriminals involved in such activities. Preventive security measures are essential.",
+      "punishment": "Offenders may face imprisonment, fines, or both.",
+      "keywords": ["ransomware", "malware", "cyber attack", "data encryption"],
+      "source": "Information Technology Act"
+    },
+    {
       "id": 88,
-      "category": "Cyber Law",
       "title": "Online Payment Gateway Security",
-      "content": "Payment service providers must implement secure encryption and fraud detection systems to protect users."
-      },
-      {
-      "id": 89,
       "category": "Cyber Law",
+      "definition": "Payment service providers must ensure secure transactions through encryption and fraud detection.",
+      "explanation": "Online payment gateways are required to implement strong security measures such as encryption and fraud detection systems. These measures protect users from unauthorized transactions and financial fraud. Service providers must ensure data confidentiality and transaction integrity. Failure to provide adequate security may lead to liability. Laws regulate digital payment systems for consumer protection.",
+      "punishment": "Service providers may face penalties, fines, or legal action for security lapses.",
+      "keywords": ["payment security", "online transaction", "fraud detection", "cyber law"],
+      "source": "Information Technology Act and RBI Guidelines"
+    },
+    {
+      "id": 89,
       "title": "Digital Signature Misuse",
-      "content": "Unauthorized use or forgery of digital signatures may attract criminal prosecution."
-      },
-      {
-        "id": 90,
-        "category": "Family Law",
-        "title": "Grounds for Divorce",
-        "content": "Divorce may be granted on legally recognized grounds such as cruelty, desertion, adultery, or mutual consent depending on applicable personal laws."
-        },
-        {
-        "id": 91,
-        "category": "Family Law",
-        "title": "Mutual Consent Divorce",
-        "content": "Spouses may jointly file for divorce by mutual consent after living separately for the prescribed statutory period."
-        },
-        {
-        "id": 92,
-        "category": "Family Law",
-        "title": "Child Custody Determination",
-        "content": "Courts decide child custody matters based on the best interests and welfare of the child rather than parental preference."
-        },
-        {
-        "id": 93,
-        "category": "Family Law",
-        "title": "Visitation Rights",
-        "content": "The non-custodial parent is generally entitled to reasonable visitation rights unless restricted for child safety reasons."
-        },
-        {
-        "id": 94,
-        "category": "Family Law",
-        "title": "Child Maintenance Obligations",
-        "content": "Parents are legally obligated to provide financial support for minor children including education and healthcare expenses."
-        },
-        {
-        "id": 95,
-        "category": "Family Law",
-        "title": "Spousal Maintenance",
-        "content": "A financially dependent spouse may claim maintenance or alimony after separation or divorce."
-        },
-        {
-        "id": 96,
-        "category": "Family Law",
-        "title": "Domestic Violence Protection",
-        "content": "Victims of domestic violence may seek protection orders, residence orders, and monetary relief from competent courts."
-        },
-        {
-        "id": 97,
-        "category": "Family Law",
-        "title": "Adoption Legal Procedure",
-        "content": "Adoption must follow statutory procedures ensuring consent, eligibility, and welfare of the child."
-        },
-        {
-        "id": 98,
-        "category": "Family Law",
-        "title": "Guardianship Rights",
-        "content": "Guardianship of minors may be granted by courts considering the welfare and stability of the child."
-        },
-        {
-        "id": 99,
-        "category": "Family Law",
-        "title": "Property Rights After Divorce",
-        "content": "Division of matrimonial property may depend on ownership, contribution, and applicable personal laws."
-        },
-        {
-        "id": 100,
-        "category": "Family Law",
-        "title": "Restitution of Conjugal Rights",
-        "content": "A spouse may seek restitution of conjugal rights if the other spouse withdraws from society without reasonable cause."
-        },
-        {
-        "id": 101,
-        "category": "Family Law",
-        "title": "Judicial Separation",
-        "content": "Judicial separation allows spouses to live apart without dissolving the marriage legally."
-        },
-        {
-        "id": 102,
-        "category": "Family Law",
-        "title": "Dowry Prohibition",
-        "content": "Demanding or giving dowry is prohibited and punishable under anti-dowry legislation."
-        },
-        {
-        "id": 103,
-        "category": "Family Law",
-        "title": "Protection of Women from Abuse",
-        "content": "Women may seek legal remedies including restraining orders and financial relief in cases of domestic abuse."
-        },
-        {
-        "id": 104,
-        "category": "Family Law",
-        "title": "Legitimacy of Children",
-        "content": "Children born within lawful marriage are presumed legitimate unless legally proven otherwise."
-        },
-        {
-        "id": 105,
-        "category": "Family Law",
-        "title": "Inheritance Rights of Spouse",
-        "content": "A surviving spouse may be entitled to inherit property under succession laws."
-        },
-        {
-        "id": 106,
-        "category": "Family Law",
-        "title": "Live-in Relationship Protections",
-        "content": "Certain legal protections may extend to partners in long-term live-in relationships under judicial interpretations."
-        },
-        {
-        "id": 107,
-        "category": "Family Law",
-        "title": "Annulment of Marriage",
-        "content": "Marriage may be annulled if legally void or voidable due to fraud, coercion, or incapacity."
-        },
-        {
-        "id": 108,
-        "category": "Family Law",
-        "title": "Parental Rights and Duties",
-        "content": "Parents have equal rights and responsibilities towards upbringing and welfare of their children."
-        },
-        {
-        "id": 109,
-        "category": "Family Law",
-        "title": "Protection Orders in Family Disputes",
-        "content": "Courts may issue temporary or permanent protection orders to safeguard victims in family disputes."
-        },
-        {
-          "id": 110,
-          "category": "Criminal Law",
-          "title": "Right to Legal Representation",
-          "content": "An accused person has the fundamental right to consult and be defended by a legal practitioner of their choice. If unable to afford one, free legal aid may be provided."
-          },
-          {
-          "id": 111,
-          "category": "Criminal Law",
-          "title": "Presumption of Innocence",
-          "content": "Every accused individual is presumed innocent until proven guilty beyond reasonable doubt in a court of law."
-          },
-          {
-          "id": 112,
-          "category": "Criminal Law",
-          "title": "Right Against Self-Incrimination",
-          "content": "An accused cannot be compelled to testify against themselves or confess guilt under coercion."
-          },
-          {
-          "id": 113,
-          "category": "Criminal Law",
-          "title": "Bail Provisions",
-          "content": "In bailable offenses, the accused has a right to bail. In non-bailable offenses, bail may be granted at the discretion of the court."
-          },
-          {
-          "id": 114,
-          "category": "Criminal Law",
-          "title": "Arrest Procedure Safeguards",
-          "content": "Law enforcement authorities must follow legal procedures during arrest including informing the accused of grounds for arrest."
-          },
-          {
-          "id": 115,
-          "category": "Criminal Law",
-          "title": "Protection Against Double Jeopardy",
-          "content": "A person cannot be tried or punished twice for the same offense once acquitted or convicted."
-          },
-          {
-          "id": 116,
-          "category": "Criminal Law",
-          "title": "Right to Fair Trial",
-          "content": "Every accused has the right to a fair and impartial trial conducted by a competent court."
-          },
-          {
-          "id": 117,
-          "category": "Criminal Law",
-          "title": "Juvenile Justice Protections",
-          "content": "Children accused of offenses are treated under juvenile justice laws focusing on reform rather than punishment."
-          },
-          {
-          "id": 118,
-          "category": "Criminal Law",
-          "title": "Cognizable vs Non-Cognizable Offenses",
-          "content": "In cognizable offenses, police may arrest without warrant. In non-cognizable offenses, prior court approval is required."
-          },
-          {
-          "id": 119,
-          "category": "Criminal Law",
-          "title": "Right to Information After Arrest",
-          "content": "An arrested person has the right to inform a family member or friend about their detention."
-          },
-          {
-          "id": 120,
-          "category": "Criminal Law",
-          "title": "FIR Registration",
-          "content": "Police are required to register a First Information Report upon receiving information about a cognizable offense."
-          },
-          {
-          "id": 121,
-          "category": "Criminal Law",
-          "title": "Self-Defense Rights",
-          "content": "An individual may use reasonable force to defend themselves or others from immediate unlawful harm."
-          },
-          {
-          "id": 122,
-          "category": "Criminal Law",
-          "title": "Criminal Conspiracy",
-          "content": "An agreement between two or more persons to commit an illegal act may constitute criminal conspiracy."
-          },
-          {
-          "id": 123,
-          "category": "Criminal Law",
-          "title": "Theft and Property Offenses",
-          "content": "Dishonestly taking movable property without consent constitutes theft under criminal statutes."
-          },
-          {
-          "id": 124,
-          "category": "Criminal Law",
-          "title": "Assault and Battery",
-          "content": "Causing physical harm or threatening violence against another person may amount to criminal assault."
-          },
-          {
-          "id": 125,
-          "category": "Criminal Law",
-          "title": "Cybercrime as Criminal Offense",
-          "content": "Certain cyber offenses such as hacking and online fraud are punishable under criminal law provisions."
-          },
-          {
-          "id": 126,
-          "category": "Criminal Law",
-          "title": "Right to Appeal",
-          "content": "A convicted individual has the right to appeal against conviction or sentence before a higher court."
-          },
-          {
-          "id": 127,
-          "category": "Criminal Law",
-          "title": "Search and Seizure Rules",
-          "content": "Search and seizure of property must comply with legal procedures and often require warrants."
-          },
-          {
-          "id": 128,
-          "category": "Criminal Law",
-          "title": "Criminal Intimidation",
-          "content": "Threatening a person with injury to body, reputation, or property may constitute criminal intimidation."
-          },
-          {
-          "id": 129,
-          "category": "Criminal Law",
-          "title": "Compounding of Offenses",
-          "content": "Certain minor offenses may be settled between parties with court approval through compounding procedures."
-          },
-          {
-            "id": 110,
-            "category": "Criminal Law",
-            "title": "Right to Legal Representation",
-            "content": "An accused person has the fundamental right to consult and be defended by a legal practitioner of their choice. If unable to afford one, free legal aid may be provided."
-            },
-            {
-            "id": 111,
-            "category": "Criminal Law",
-            "title": "Presumption of Innocence",
-            "content": "Every accused individual is presumed innocent until proven guilty beyond reasonable doubt in a court of law."
-            },
-            {
-            "id": 112,
-            "category": "Criminal Law",
-            "title": "Right Against Self-Incrimination",
-            "content": "An accused cannot be compelled to testify against themselves or confess guilt under coercion."
-            },
-            {
-            "id": 113,
-            "category": "Criminal Law",
-            "title": "Bail Provisions",
-            "content": "In bailable offenses, the accused has a right to bail. In non-bailable offenses, bail may be granted at the discretion of the court."
-            },
-            {
-            "id": 114,
-            "category": "Criminal Law",
-            "title": "Arrest Procedure Safeguards",
-            "content": "Law enforcement authorities must follow legal procedures during arrest including informing the accused of grounds for arrest."
-            },
-            {
-            "id": 115,
-            "category": "Criminal Law",
-            "title": "Protection Against Double Jeopardy",
-            "content": "A person cannot be tried or punished twice for the same offense once acquitted or convicted."
-            },
-            {
-            "id": 116,
-            "category": "Criminal Law",
-            "title": "Right to Fair Trial",
-            "content": "Every accused has the right to a fair and impartial trial conducted by a competent court."
-            },
-            {
-            "id": 117,
-            "category": "Criminal Law",
-            "title": "Juvenile Justice Protections",
-            "content": "Children accused of offenses are treated under juvenile justice laws focusing on reform rather than punishment."
-            },
-            {
-            "id": 118,
-            "category": "Criminal Law",
-            "title": "Cognizable vs Non-Cognizable Offenses",
-            "content": "In cognizable offenses, police may arrest without warrant. In non-cognizable offenses, prior court approval is required."
-            },
-            {
-            "id": 119,
-            "category": "Criminal Law",
-            "title": "Right to Information After Arrest",
-            "content": "An arrested person has the right to inform a family member or friend about their detention."
-            },
-            {
-            "id": 120,
-            "category": "Criminal Law",
-            "title": "FIR Registration",
-            "content": "Police are required to register a First Information Report upon receiving information about a cognizable offense."
-            },
-            {
-            "id": 121,
-            "category": "Criminal Law",
-            "title": "Self-Defense Rights",
-            "content": "An individual may use reasonable force to defend themselves or others from immediate unlawful harm."
-            },
-            {
-            "id": 122,
-            "category": "Criminal Law",
-            "title": "Criminal Conspiracy",
-            "content": "An agreement between two or more persons to commit an illegal act may constitute criminal conspiracy."
-            },
-            {
-            "id": 123,
-            "category": "Criminal Law",
-            "title": "Theft and Property Offenses",
-            "content": "Dishonestly taking movable property without consent constitutes theft under criminal statutes."
-            },
-            {
-            "id": 124,
-            "category": "Criminal Law",
-            "title": "Assault and Battery",
-            "content": "Causing physical harm or threatening violence against another person may amount to criminal assault."
-            },
-            {
-            "id": 125,
-            "category": "Criminal Law",
-            "title": "Cybercrime as Criminal Offense",
-            "content": "Certain cyber offenses such as hacking and online fraud are punishable under criminal law provisions."
-            },
-            {
-            "id": 126,
-            "category": "Criminal Law",
-            "title": "Right to Appeal",
-            "content": "A convicted individual has the right to appeal against conviction or sentence before a higher court."
-            },
-            {
-            "id": 127,
-            "category": "Criminal Law",
-            "title": "Search and Seizure Rules",
-            "content": "Search and seizure of property must comply with legal procedures and often require warrants."
-            },
-            {
-            "id": 128,
-            "category": "Criminal Law",
-            "title": "Criminal Intimidation",
-            "content": "Threatening a person with injury to body, reputation, or property may constitute criminal intimidation."
-            },
-            {
-            "id": 129,
-            "category": "Criminal Law",
-            "title": "Compounding of Offenses",
-            "content": "Certain minor offenses may be settled between parties with court approval through compounding procedures."
-            }
+      "category": "Cyber Law",
+      "definition": "Unauthorized use or forgery of digital signatures is a punishable offense.",
+      "explanation": "Digital signatures are used for secure electronic authentication. Misuse or forgery of digital signatures can lead to fraud and identity theft. Such acts are treated as serious cyber offenses. Victims can report misuse to authorities. Laws ensure the integrity and security of digital authentication systems.",
+      "punishment": "Offenders may face imprisonment, fines, or both.",
+      "keywords": ["digital signature", "forgery", "cybercrime", "authentication"],
+      "source": "Information Technology Act"
+    },
+    {
+      "id": 90,
+      "title": "Grounds for Divorce",
+      "category": "Family Law",
+      "definition": "Divorce can be granted on legally recognized grounds such as cruelty, desertion, or mutual consent.",
+      "explanation": "Family laws provide specific grounds on which a marriage can be dissolved. These include cruelty, adultery, desertion, and mutual consent. The applicable grounds depend on personal laws governing the parties. Courts examine evidence before granting divorce. Legal procedures ensure fairness to both spouses.",
+      "punishment": "No punishment; legal dissolution of marriage through court process.",
+      "keywords": ["divorce", "family law", "cruelty", "mutual consent"],
+      "source": "Family Laws and Marriage Acts"
+    },
+    {
+      "id": 91,
+      "title": "Mutual Consent Divorce",
+      "category": "Family Law",
+      "definition": "Divorce by mutual consent occurs when both spouses agree to separate legally.",
+      "explanation": "In mutual consent divorce, both parties agree to dissolve the marriage amicably. They must have lived separately for a prescribed period. The court verifies consent and settlement terms. This process is quicker and less contentious. It ensures peaceful resolution of marital disputes.",
+      "punishment": "No punishment; legal process through court approval.",
+      "keywords": ["mutual divorce", "family law", "separation", "legal process"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 92,
+      "title": "Child Custody Determination",
+      "category": "Family Law",
+      "definition": "Child custody is decided based on the best interests of the child.",
+      "explanation": "Courts determine custody by considering the child's welfare, safety, and emotional needs. Factors include age, health, and parental ability. The child's preference may also be considered. The primary goal is the child's well-being. Legal systems ensure fair custody arrangements.",
+      "punishment": "No punishment; court determines custody arrangements.",
+      "keywords": ["child custody", "family law", "child welfare", "custody rights"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 93,
+      "title": "Visitation Rights",
+      "category": "Family Law",
+      "definition": "Non-custodial parents have the right to visit their children.",
+      "explanation": "When custody is granted to one parent, the other parent is usually given visitation rights. These rights ensure continued relationship with the child. Courts may impose restrictions if necessary for safety. Visitation schedules are defined by the court. This promotes the child's emotional well-being.",
+      "punishment": "Violation may lead to legal action or modification of custody terms.",
+      "keywords": ["visitation", "child rights", "custody", "family law"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 94,
+      "title": "Child Maintenance Obligations",
+      "category": "Family Law",
+      "definition": "Parents must financially support their minor children.",
+      "explanation": "Parents are legally required to provide financial support for their children. This includes expenses for education, healthcare, and daily needs. Courts determine maintenance based on income and needs. This ensures proper upbringing of children. Legal provisions enforce parental responsibility.",
+      "punishment": "Failure may lead to legal action or court orders for payment.",
+      "keywords": ["child maintenance", "financial support", "family law", "child rights"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 95,
+      "title": "Spousal Maintenance",
+      "category": "Family Law",
+      "definition": "A dependent spouse may claim financial support after separation or divorce.",
+      "explanation": "Spousal maintenance ensures financial support for a dependent spouse after separation. Courts consider income, lifestyle, and needs. Maintenance may be temporary or permanent. It ensures fairness and support. Legal provisions protect financially weaker spouses.",
+      "punishment": "Failure to pay may lead to legal action or court enforcement.",
+      "keywords": ["alimony", "spousal support", "family law", "maintenance"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 96,
+      "title": "Domestic Violence Protection",
+      "category": "Family Law",
+      "definition": "Victims of domestic violence can seek legal protection and relief.",
+      "explanation": "Domestic violence laws protect individuals from physical, emotional, or financial abuse within the household. Victims can approach courts for protection orders, residence rights, and monetary relief. Authorities ensure immediate safety and support. Legal provisions aim to prevent abuse and provide justice. Victims are encouraged to report incidents promptly.",
+      "punishment": "Offenders may face imprisonment, fines, or restraining orders.",
+      "keywords": ["domestic violence", "protection order", "abuse", "family law"],
+      "source": "Protection of Women from Domestic Violence Act"
+    },
+    {
+      "id": 97,
+      "title": "Adoption Legal Procedure",
+      "category": "Family Law",
+      "definition": "Adoption must follow legal procedures ensuring the welfare of the child.",
+      "explanation": "Adoption requires compliance with statutory procedures including consent and eligibility checks. Authorities ensure that the child’s welfare is the primary consideration. Legal documentation and court approval are necessary. The process ensures the rights of both the child and adoptive parents. Proper adoption prevents illegal practices.",
+      "punishment": "Illegal adoption may result in legal penalties.",
+      "keywords": ["adoption", "child welfare", "legal process", "family law"],
+      "source": "Juvenile Justice Act"
+    },
+    {
+      "id": 98,
+      "title": "Guardianship Rights",
+      "category": "Family Law",
+      "definition": "Courts appoint guardians based on the welfare of the child.",
+      "explanation": "Guardianship of minors is decided by courts considering stability, financial capability, and emotional support. The child’s welfare is the most important factor. Guardians are responsible for care and upbringing. Legal safeguards ensure protection of minors. Courts may modify guardianship if necessary.",
+      "punishment": "Misuse of guardianship may lead to legal action.",
+      "keywords": ["guardianship", "child rights", "family law"],
+      "source": "Guardians and Wards Act"
+    },
+    {
+      "id": 99,
+      "title": "Property Rights After Divorce",
+      "category": "Family Law",
+      "definition": "Division of property after divorce depends on ownership and applicable laws.",
+      "explanation": "After divorce, property division is determined based on ownership, financial contribution, and personal laws. Courts aim to ensure fairness between spouses. Joint assets may be divided equitably. Legal frameworks vary depending on religion and jurisdiction. Proper legal guidance is important in such cases.",
+      "punishment": "No punishment; legal division of assets.",
+      "keywords": ["divorce property", "asset division", "family law"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 100,
+      "title": "Restitution of Conjugal Rights",
+      "category": "Family Law",
+      "definition": "A spouse may seek restoration of marital relationship through court.",
+      "explanation": "If one spouse withdraws from the relationship without reasonable cause, the other spouse can seek restitution of conjugal rights. The court may order the couple to resume cohabitation. This remedy aims to preserve marriage. Legal scrutiny ensures fairness. Non-compliance may have legal consequences.",
+      "punishment": "No direct punishment; legal order by court.",
+      "keywords": ["conjugal rights", "marriage", "family law"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 101,
+      "title": "Judicial Separation",
+      "category": "Family Law",
+      "definition": "Spouses may live separately without dissolving the marriage.",
+      "explanation": "Judicial separation allows couples to live apart while remaining legally married. It provides time for reconciliation or decision-making. Rights and obligations continue during separation. Courts grant separation based on valid grounds. It is different from divorce.",
+      "punishment": "No punishment; legal separation order.",
+      "keywords": ["judicial separation", "marriage", "family law"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 102,
+      "title": "Dowry Prohibition",
+      "category": "Family Law",
+      "definition": "Demanding or giving dowry is illegal.",
+      "explanation": "Dowry practices are prohibited under law. Any demand or acceptance of dowry is punishable. The law aims to prevent exploitation and abuse. Victims can file complaints against offenders. Strict enforcement ensures social justice.",
+      "punishment": "Imprisonment, fines, or both.",
+      "keywords": ["dowry", "illegal demand", "family law"],
+      "source": "Dowry Prohibition Act"
+    },
+    {
+      "id": 103,
+      "title": "Protection of Women from Abuse",
+      "category": "Family Law",
+      "definition": "Women can seek legal remedies against abuse.",
+      "explanation": "Women facing abuse can approach courts for restraining orders and financial relief. Laws provide protection from physical, emotional, and economic abuse. Authorities ensure safety and justice. Legal remedies are available for immediate protection. Awareness is important to prevent abuse.",
+      "punishment": "Offenders may face legal action, fines, or imprisonment.",
+      "keywords": ["women protection", "abuse", "domestic violence"],
+      "source": "Domestic Violence Act"
+    },
+    {
+      "id": 104,
+      "title": "Legitimacy of Children",
+      "category": "Family Law",
+      "definition": "Children born within marriage are presumed legitimate.",
+      "explanation": "Law presumes that children born during a valid marriage are legitimate. This ensures their legal rights such as inheritance. The presumption can be challenged only with strong evidence. Legal provisions protect children's rights. Courts uphold legitimacy to ensure stability.",
+      "punishment": "No punishment; legal presumption.",
+      "keywords": ["legitimacy", "child rights", "family law"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 105,
+      "title": "Inheritance Rights of Spouse",
+      "category": "Family Law",
+      "definition": "A surviving spouse has rights to inherit property.",
+      "explanation": "After the death of a spouse, the surviving partner may inherit property under succession laws. The share depends on applicable personal laws. Courts ensure fair distribution. Legal provisions protect spouse rights. Proper documentation is important.",
+      "punishment": "No punishment; legal right.",
+      "keywords": ["inheritance", "spouse rights", "family law"],
+      "source": "Succession Laws"
+    },
+    {
+      "id": 106,
+      "title": "Live-in Relationship Protections",
+      "category": "Family Law",
+      "definition": "Legal protections may apply to long-term live-in relationships.",
+      "explanation": "Courts have recognized certain rights for partners in live-in relationships. These include protection from abuse and maintenance rights in some cases. The relationship must meet legal criteria. Laws aim to prevent exploitation. Judicial interpretations guide such protections.",
+      "punishment": "No punishment; legal protection mechanism.",
+      "keywords": ["live-in", "relationship", "family law"],
+      "source": "Judicial Precedents"
+    },
+    {
+      "id": 107,
+      "title": "Annulment of Marriage",
+      "category": "Family Law",
+      "definition": "Marriage may be declared void under certain conditions.",
+      "explanation": "Annulment is granted when marriage is legally invalid due to fraud, coercion, or incapacity. It declares the marriage void from the beginning. Courts examine evidence before granting annulment. It is different from divorce. Legal safeguards ensure fairness.",
+      "punishment": "No punishment; legal declaration.",
+      "keywords": ["annulment", "void marriage", "family law"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 108,
+      "title": "Parental Rights and Duties",
+      "category": "Family Law",
+      "definition": "Parents have equal rights and responsibilities towards their children.",
+      "explanation": "Both parents are legally responsible for the upbringing, education, and welfare of their children. This includes providing financial support, care, and guidance. Laws ensure that both parents contribute equally unless decided otherwise by the court. The primary focus is the child’s well-being. Courts may intervene in case of disputes.",
+      "punishment": "Failure to fulfill duties may lead to legal action or court orders.",
+      "keywords": ["parental rights", "child welfare", "family law"],
+      "source": "Family Laws"
+    },
+    {
+      "id": 109,
+      "title": "Protection Orders in Family Disputes",
+      "category": "Family Law",
+      "definition": "Courts can issue protection orders to safeguard victims in family disputes.",
+      "explanation": "In cases of domestic conflict or abuse, courts may grant temporary or permanent protection orders. These orders restrict the offender from contacting or approaching the victim. They ensure safety and prevent further harm. Legal remedies are available for immediate protection. Courts prioritize victim safety.",
+      "punishment": "Violation of protection orders may result in legal penalties or imprisonment.",
+      "keywords": ["protection order", "family dispute", "safety", "family law"],
+      "source": "Domestic Violence Act"
+    },
+    {
+      "id": 110,
+      "title": "Right to Legal Representation",
+      "category": "Criminal Law",
+      "definition": "Every accused person has the right to be defended by a lawyer.",
+      "explanation": "An accused individual has the fundamental right to consult and be defended by a legal practitioner of their choice. If they cannot afford a lawyer, the state provides free legal aid. This ensures fairness and equality in the justice system. Legal representation is essential for a fair trial. Courts strictly protect this right.",
+      "punishment": "Violation may lead to retrial or invalidation of proceedings.",
+      "keywords": ["legal representation", "lawyer", "fair trial", "criminal law"],
+      "source": "Constitution of India and Criminal Laws"
+    },
+    {
+      "id": 111,
+      "title": "Presumption of Innocence",
+      "category": "Criminal Law",
+      "definition": "An accused is considered innocent until proven guilty.",
+      "explanation": "The principle of presumption of innocence ensures that a person is not treated as guilty until proven so in court. The burden of proof lies on the prosecution. This protects individuals from wrongful conviction. Courts require strong and valid evidence. It is a fundamental concept of criminal justice.",
+      "punishment": "No punishment; legal principle ensuring fairness.",
+      "keywords": ["innocence", "burden of proof", "criminal law"],
+      "source": "Criminal Law Principles"
+    },
+    {
+      "id": 112,
+      "title": "Right Against Self-Incrimination",
+      "category": "Criminal Law",
+      "definition": "An accused cannot be forced to testify against themselves.",
+      "explanation": "The law protects individuals from being compelled to confess guilt or provide evidence against themselves. Any confession obtained through coercion is invalid. This ensures fairness and prevents misuse of authority. It is a fundamental right under the constitution. Courts strictly enforce this protection.",
+      "punishment": "Violation may lead to rejection of evidence and legal action.",
+      "keywords": ["self incrimination", "rights", "criminal law"],
+      "source": "Constitution of India"
+    },
+    {
+      "id": 113,
+      "title": "Bail Provisions",
+      "category": "Criminal Law",
+      "definition": "Bail allows temporary release of an accused person.",
+      "explanation": "In bailable offenses, bail is a legal right of the accused. In non-bailable offenses, bail is granted at the discretion of the court. Courts consider factors such as seriousness of the offense and evidence. Bail ensures liberty while the trial continues. Legal safeguards prevent misuse.",
+      "punishment": "No punishment; legal procedure.",
+      "keywords": ["bail", "custody", "criminal law"],
+      "source": "Criminal Procedure Code"
+    },
+    {
+      "id": 114,
+      "title": "Arrest Procedure Safeguards",
+      "category": "Criminal Law",
+      "definition": "Arrests must follow legal procedures to protect individual rights.",
+      "explanation": "Police must inform the accused of the reasons for arrest and follow due legal procedure. The accused has rights such as legal representation and information to family members. Illegal arrest can be challenged in court. These safeguards protect personal liberty. Courts ensure compliance with procedures.",
+      "punishment": "Violation may result in legal action against authorities.",
+      "keywords": ["arrest", "rights", "procedure", "criminal law"],
+      "source": "Criminal Procedure Code"
+    },
+    {
+      "id": 115,
+      "title": "Protection Against Double Jeopardy",
+      "category": "Criminal Law",
+      "definition": "A person cannot be punished twice for the same offense.",
+      "explanation": "The principle of double jeopardy ensures that once a person is acquitted or convicted, they cannot be tried again for the same offense. This protects individuals from repeated prosecution. It is a fundamental legal safeguard. Courts strictly uphold this principle. It ensures fairness in justice.",
+      "punishment": "No punishment; legal protection principle.",
+      "keywords": ["double jeopardy", "legal rights", "criminal law"],
+      "source": "Constitution of India"
+    },
+    {
+      "id": 116,
+      "title": "Right to Fair Trial",
+      "category": "Criminal Law",
+      "definition": "Every accused has the right to a fair and impartial trial.",
+      "explanation": "A fair trial ensures that the accused is judged by an unbiased and competent court. It includes the right to present evidence, cross-examine witnesses, and receive legal representation. The trial must follow due legal procedures. This right protects individuals from injustice. Courts strictly uphold fairness in proceedings.",
+      "punishment": "Violation may result in retrial or case dismissal.",
+      "keywords": ["fair trial", "justice", "court", "criminal law"],
+      "source": "Constitution of India"
+    },
+    {
+      "id": 117,
+      "title": "Juvenile Justice Protections",
+      "category": "Criminal Law",
+      "definition": "Children accused of offenses are treated under reformative laws.",
+      "explanation": "Juvenile justice laws focus on rehabilitation rather than punishment for minors. Children are tried in special juvenile courts. The aim is to reform and reintegrate them into society. Harsh penalties are avoided. Legal systems prioritize the child’s future and welfare.",
+      "punishment": "Rehabilitation measures instead of strict punishment.",
+      "keywords": ["juvenile", "child offender", "rehabilitation", "criminal law"],
+      "source": "Juvenile Justice Act"
+    },
+    {
+      "id": 118,
+      "title": "Cognizable vs Non-Cognizable Offenses",
+      "category": "Criminal Law",
+      "definition": "Offenses are classified based on police authority to act.",
+      "explanation": "In cognizable offenses, police can arrest without a warrant and start investigation immediately. These include serious crimes like murder or theft. In non-cognizable offenses, police require prior court approval to act. These are less serious offenses. This classification helps regulate police powers.",
+      "punishment": "Depends on the specific offense involved.",
+      "keywords": ["cognizable", "non cognizable", "police powers", "criminal law"],
+      "source": "Criminal Procedure Code"
+    },
+    {
+      "id": 119,
+      "title": "Right to Information After Arrest",
+      "category": "Criminal Law",
+      "definition": "An arrested person has the right to inform someone about their detention.",
+      "explanation": "After arrest, an individual has the right to inform a family member or friend. This ensures transparency and protection against unlawful detention. Police must allow communication. This right safeguards personal liberty. Courts enforce this strictly.",
+      "punishment": "Violation may lead to action against authorities.",
+      "keywords": ["arrest rights", "information", "criminal law"],
+      "source": "Criminal Procedure Code"
+    },
+    {
+      "id": 120,
+      "title": "FIR Registration",
+      "category": "Criminal Law",
+      "definition": "Police must register FIR for cognizable offenses.",
+      "explanation": "A First Information Report (FIR) is the first step in criminal proceedings. Police are required to register it upon receiving information about a cognizable offense. It initiates investigation. Refusal to file FIR can be challenged legally. FIR ensures proper legal process.",
+      "punishment": "Failure may lead to disciplinary action against police.",
+      "keywords": ["FIR", "complaint", "police", "criminal law"],
+      "source": "Criminal Procedure Code"
+    },
+    {
+      "id": 121,
+      "title": "Self-Defense Rights",
+      "category": "Criminal Law",
+      "definition": "Individuals can use reasonable force for self-protection.",
+      "explanation": "The law allows individuals to defend themselves or others from immediate harm. The force used must be reasonable and proportionate. Excessive force is not permitted. This right ensures safety. Courts evaluate each situation carefully.",
+      "punishment": "Excessive force may lead to legal consequences.",
+      "keywords": ["self defense", "protection", "criminal law"],
+      "source": "Indian Penal Code"
+    },
+    {
+      "id": 122,
+      "title": "Criminal Conspiracy",
+      "category": "Criminal Law",
+      "definition": "Agreement to commit an illegal act is criminal conspiracy.",
+      "explanation": "When two or more persons agree to commit a crime, it constitutes conspiracy. The agreement itself is punishable even if the act is not completed. Laws aim to prevent planned criminal activities. Evidence of agreement is crucial. Courts take such offenses seriously.",
+      "punishment": "Imprisonment, fine, or both.",
+      "keywords": ["conspiracy", "crime planning", "criminal law"],
+      "source": "Indian Penal Code"
+    },
+    {
+      "id": 123,
+      "title": "Theft and Property Offenses",
+      "category": "Criminal Law",
+      "definition": "Taking property dishonestly without consent is theft.",
+      "explanation": "Theft involves unlawful removal of property with dishonest intent. It is a punishable offense. Laws protect property rights. Severity of punishment depends on circumstances. Courts ensure justice for victims.",
+      "punishment": "Imprisonment, fine, or both.",
+      "keywords": ["theft", "property", "criminal law"],
+      "source": "Indian Penal Code"
+    },
+    {
+      "id": 124,
+      "title": "Assault and Battery",
+      "category": "Criminal Law",
+      "definition": "Causing harm or threatening violence is assault.",
+      "explanation": "Assault includes both physical harm and threats of violence. It is a criminal offense. Victims can seek legal protection. Laws ensure safety of individuals. Severity determines punishment.",
+      "punishment": "Imprisonment, fine, or both.",
+      "keywords": ["assault", "violence", "criminal law"],
+      "source": "Indian Penal Code"
+    },
+    {
+      "id": 125,
+      "title": "Cybercrime as Criminal Offense",
+      "category": "Criminal Law",
+      "definition": "Cyber offenses are punishable under criminal law.",
+      "explanation": "Cybercrimes such as hacking, fraud, and identity theft are treated as criminal offenses. They are punishable under both cyber laws and criminal statutes. Victims can report such incidents to authorities. Laws ensure protection in digital space. Awareness helps prevent cybercrime.",
+      "punishment": "Imprisonment, fines, or both.",
+      "keywords": ["cybercrime", "fraud", "hacking", "criminal law"],
+      "source": "IT Act and IPC"
+    },
+    {
+      "id": 126,
+      "title": "Right to Appeal",
+      "category": "Criminal Law",
+      "definition": "A convicted person has the right to appeal to a higher court.",
+      "explanation": "The right to appeal allows a person to challenge a conviction or sentence. Higher courts review the decision for errors in law or procedure. This ensures fairness and prevents miscarriage of justice. Appeals must follow proper legal procedures. It is an important safeguard in the justice system.",
+      "punishment": "No punishment; legal right.",
+      "keywords": ["appeal", "court", "legal rights", "criminal law"],
+      "source": "Criminal Procedure Code"
+    },
+    {
+      "id": 127,
+      "title": "Search and Seizure Rules",
+      "category": "Criminal Law",
+      "definition": "Search and seizure must follow legal procedures and safeguards.",
+      "explanation": "Law enforcement authorities must follow proper legal procedures when conducting searches or seizing property. In many cases, a warrant is required. This protects individuals from unlawful intrusion. Evidence collected improperly may be rejected by courts. Legal safeguards ensure fairness and accountability.",
+      "punishment": "Illegal search may lead to legal action against authorities.",
+      "keywords": ["search", "seizure", "warrant", "criminal law"],
+      "source": "Criminal Procedure Code"
+    },
+    {
+      "id": 128,
+      "title": "Criminal Intimidation",
+      "category": "Criminal Law",
+      "definition": "Threatening harm to a person or property is criminal intimidation.",
+      "explanation": "Criminal intimidation involves threats to cause injury to body, reputation, or property. It creates fear and pressure on the victim. Such acts are punishable under law. Victims can file complaints. Courts ensure protection against threats and coercion.",
+      "punishment": "Imprisonment, fine, or both.",
+      "keywords": ["threat", "intimidation", "criminal law"],
+      "source": "Indian Penal Code"
+    },
+    {
+      "id": 129,
+      "title": "Compounding of Offenses",
+      "category": "Criminal Law",
+      "definition": "Certain offenses can be settled between parties with court approval.",
+      "explanation": "Compounding allows parties to settle minor offenses without a full trial. It requires consent of both parties and approval from the court. This helps reduce court burden and resolve disputes quickly. Only specific offenses are compoundable. Legal procedures must be followed.",
+      "punishment": "No punishment if legally compounded.",
+      "keywords": ["compounding", "settlement", "criminal law"],
+      "source": "Criminal Procedure Code"
+    },
+    {
+      "id": 121,
+      "title": "Self-Defense Rights",
+      "category": "Criminal Law",
+      "definition": "Individuals can use reasonable force to protect themselves or others.",
+      "explanation": "The law allows a person to defend themselves or others from immediate unlawful harm. The force used must be reasonable and proportionate to the threat. Excessive force is not permitted. This right ensures personal safety and protection. Courts evaluate each situation carefully.",
+      "punishment": "Excessive or unjustified force may lead to legal consequences.",
+      "keywords": ["self defense", "protection", "criminal law"],
+      "source": "Indian Penal Code"
+    },
+    {
+      "id": 122,
+      "title": "Criminal Conspiracy",
+      "category": "Criminal Law",
+      "definition": "Agreement between persons to commit an illegal act is criminal conspiracy.",
+      "explanation": "When two or more individuals agree to commit a crime, it constitutes conspiracy. The agreement itself is punishable even if the act is not completed. This law helps prevent planned criminal activities. Evidence of agreement is important. Courts treat such offenses seriously.",
+      "punishment": "Imprisonment, fine, or both.",
+      "keywords": ["conspiracy", "crime planning", "criminal law"],
+      "source": "Indian Penal Code"
+    },
+    {
+      "id": 123,
+      "title": "Theft and Property Offenses",
+      "category": "Criminal Law",
+      "definition": "Taking movable property dishonestly without consent is theft.",
+      "explanation": "Theft involves unlawful taking of property with dishonest intention. It is a punishable offense under criminal law. Consent of the owner is essential to avoid liability. Laws protect property rights. Courts impose penalties based on seriousness of the act.",
+      "punishment": "Imprisonment, fine, or both.",
+      "keywords": ["theft", "property", "criminal law"],
+      "source": "Indian Penal Code"
+    },
+    {
+      "id": 124,
+      "title": "Assault and Battery",
+      "category": "Criminal Law",
+      "definition": "Causing harm or threatening violence is considered assault.",
+      "explanation": "Assault includes both physical harm and threats of violence. It is a criminal offense under law. Victims can seek legal protection. Severity of the offense determines punishment. Laws ensure safety and protection of individuals.",
+      "punishment": "Imprisonment, fine, or both.",
+      "keywords": ["assault", "violence", "criminal law"],
+      "source": "Indian Penal Code"
+    },
+    {
+      "id": 125,
+      "title": "Cybercrime as Criminal Offense",
+      "category": "Criminal Law",
+      "definition": "Cyber offenses are punishable under criminal law.",
+      "explanation": "Crimes such as hacking, online fraud, and identity theft are treated as criminal offenses. These acts are punishable under both cyber laws and criminal statutes. Victims can report such crimes to authorities. Laws ensure protection in digital environments. Awareness helps prevent cybercrime.",
+      "punishment": "Imprisonment, fines, or both.",
+      "keywords": ["cybercrime", "fraud", "hacking", "criminal law"],
+      "source": "Information Technology Act and IPC"
+    },
+    {
+      "id": 126,
+      "title": "Right to Appeal",
+      "category": "Criminal Law",
+      "definition": "A convicted person can challenge a decision in a higher court.",
+      "explanation": "The right to appeal allows individuals to seek review of a conviction or sentence. Higher courts examine whether the decision was legally correct. This ensures fairness in the justice system. Appeals must follow proper procedures. It acts as a safeguard against wrongful conviction.",
+      "punishment": "No punishment; legal right.",
+      "keywords": ["appeal", "court", "legal rights"],
+      "source": "Criminal Procedure Code"
+    },
+    {
+      "id": 127,
+      "title": "Search and Seizure Rules",
+      "category": "Criminal Law",
+      "definition": "Search and seizure must comply with legal procedures.",
+      "explanation": "Law enforcement must follow proper procedures while conducting searches or seizing property. Warrants are often required. This protects individuals from unlawful interference. Evidence obtained illegally may not be admissible. Legal safeguards ensure accountability.",
+      "punishment": "Illegal actions may lead to legal consequences for authorities.",
+      "keywords": ["search", "seizure", "warrant", "criminal law"],
+      "source": "Criminal Procedure Code"
+    },
+    {
+      "id": 128,
+      "title": "Criminal Intimidation",
+      "category": "Criminal Law",
+      "definition": "Threatening harm to a person or property is criminal intimidation.",
+      "explanation": "Criminal intimidation involves threats that create fear of injury to body, reputation, or property. It is punishable under law. Victims can report such threats. Laws ensure protection from coercion and fear. Courts treat such offenses seriously.",
+      "punishment": "Imprisonment, fine, or both.",
+      "keywords": ["intimidation", "threat", "criminal law"],
+      "source": "Indian Penal Code"
+    },
+    {
+      "id": 129,
+      "title": "Compounding of Offenses",
+      "category": "Criminal Law",
+      "definition": "Certain minor offenses can be settled with court approval.",
+      "explanation": "Compounding allows parties to settle disputes without a full trial. It requires consent of both parties and court approval. Only specific offenses are compoundable. This helps reduce burden on courts. Legal procedures must be followed.",
+      "punishment": "No punishment if legally compounded.",
+      "keywords": ["compounding", "settlement", "criminal law"],
+      "source": "Criminal Procedure Code"
+    }
 ]

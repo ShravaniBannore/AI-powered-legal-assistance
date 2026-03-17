@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
   <style>@view-transition { navigation: auto; }</style>
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
   
  </head>
  <body class="h-full gradient-bg text-white overflow-x-hidden scroll-smooth">
@@ -23,28 +24,209 @@
   </div>
   
   <!-- Sticky Navigation -->
-  <nav class="fixed top-0 left-0 right-0 z-50 glass-card py-4 px-6" id="navbar">
+<!-- Tailwind CSS CDN -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+
+<!-- Navbar -->
+<nav class="fixed top-0 left-0 right-0 z-50 glass-card py-4 px-6" id="navbar">
    <div class="max-w-7xl mx-auto flex items-center justify-between">
     <div class="flex items-center gap-3">
      <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-400 flex items-center justify-center">
-      <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+      <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
      </div>
-     <span class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">LegalAI</span>
+     <span class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">LegalEase</span>
     </div>
-    <div class="hidden md:flex items-center gap-8"><a href="#home" class="nav-link active text-sm font-medium text-gray-300 hover:text-white py-2">Home</a> <a href="#how-it-works" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">How It Works</a> <a href="#features" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">Features</a> <a href="#ask" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">Ask Question</a> <a href="#upload" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">Upload Docs</a> <a href="#tech" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">AI Agent</a> <a href="#about" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">About</a> <a href="#disclaimer" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">Disclaimer</a>
-    </div><button class="md:hidden text-white" onclick="toggleMobileMenu()">
-     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex items-center gap-8">
+       <a href="#home" class="nav-link active text-sm font-medium text-gray-300 hover:text-white py-2">Home</a>
+       <a href="#how-it-works" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">How It Works</a>
+       <a href="#features" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">Features</a>
+       <a href="#about" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">About</a>
+       <a href="#disclaimer" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">Disclaimer</a>
+       <a href="#" onclick="openAskPage(event)" 
+class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">
+  Ask a Question</a>
+
+       <!-- Login & Signup -->
+       <a href="#Login" id="loginBtn" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">Login</a>
+       <a href="#Signup" id="signupBtn" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">Signup</a>
+
+       
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="md:hidden text-white" onclick="toggleMobileMenu()">
+     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16" />
      </svg>
-     </button>
+    </button>
    </div>
-   
+
    <!-- Mobile Menu -->
    <div id="mobileMenu" class="hidden md:hidden mt-4 pb-4 border-t border-white/10 pt-4">
-    <div class="flex flex-col gap-3"><a href="#home" class="text-sm font-medium text-gray-300 hover:text-white py-2">Home</a> <a href="#how-it-works" class="text-sm font-medium text-gray-300 hover:text-white py-2">How It Works</a> <a href="#features" class="text-sm font-medium text-gray-300 hover:text-white py-2">Features</a> <a href="#ask" class="text-sm font-medium text-gray-300 hover:text-white py-2">Ask Question</a> <a href="#upload" class="text-sm font-medium text-gray-300 hover:text-white py-2">Upload Docs</a> <a href="#tech" class="text-sm font-medium text-gray-300 hover:text-white py-2">AI Agent</a> <a href="#about" class="text-sm font-medium text-gray-300 hover:text-white py-2">About</a> <a href="#disclaimer" class="text-sm font-medium text-gray-300 hover:text-white py-2">Disclaimer</a>
+    <div class="flex flex-col gap-3">
+       <a href="#home" class="text-sm font-medium text-gray-300 hover:text-white py-2">Home</a>
+       <a href="#how-it-works" class="text-sm font-medium text-gray-300 hover:text-white py-2">How It Works</a>
+       <a href="#features" class="text-sm font-medium text-gray-300 hover:text-white py-2">Features</a>
+       <a href="#ask" class="text-sm font-medium text-gray-300 hover:text-white py-2">Ask Question</a>
+       <a href="#about" class="text-sm font-medium text-gray-300 hover:text-white py-2">About</a>
+       <a href="#disclaimer" class="text-sm font-medium text-gray-300 hover:text-white py-2">Disclaimer</a>
+           <a href="#ask" onclick="openAskPage()" class="nav-link text-sm font-medium text-gray-300 hover:text-white py-2">
+  Ask a Question
+</a>
+
+       <!-- Login & Signup Mobile -->
+       <a href="#Login" id="loginBtnMobile" class="text-sm font-medium text-gray-300 hover:text-white py-2">Login</a>
+       <a href="#Signup" id="signupBtnMobile" class="text-sm font-medium text-gray-300 hover:text-white py-2">Signup</a>
     </div>
    </div>
-  </nav>
+</nav>
+
+<!-- Modal Overlay -->
+<div id="overlay" class="fixed inset-0 bg-black bg-opacity-60 hidden z-50 flex items-center justify-center p-4">
+  <!-- Modal Card -->
+  <div class="bg-gray-900/95 backdrop-blur-md rounded-3xl shadow-2xl w-full max-w-md p-8 relative">
+    <!-- Close Button -->
+    <button id="closeModal" class="absolute top-5 right-5 text-gray-400 hover:text-white text-2xl">&times;</button>
+
+    <!-- Login Form -->
+    <form id="loginForm" class="space-y-6">
+      <h2 class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400 text-center">Welcome Back</h2>
+      <p class="text-gray-400 text-center">Login to your account</p>
+
+      <!-- Email -->
+      <div class="relative">
+        <input type="email" placeholder=" " required
+          class="peer w-full bg-gray-800/70 text-white rounded-xl px-4 pt-5 pb-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+        <label
+          class="absolute left-4 top-2 text-gray-400 text-sm transition-all
+          peer-placeholder-shown:top-5 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base
+          peer-focus:top-2 peer-focus:text-indigo-400 peer-focus:text-sm">Email</label>
+      </div>
+
+      <!-- Password -->
+      <div class="relative">
+        <input type="password" placeholder=" " required
+          class="peer w-full bg-gray-800/70 text-white rounded-xl px-4 pt-5 pb-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+        <label
+          class="absolute left-4 top-2 text-gray-400 text-sm transition-all
+          peer-placeholder-shown:top-5 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base
+          peer-focus:top-2 peer-focus:text-indigo-400 peer-focus:text-sm">Password</label>
+      </div>
+
+      <!-- Login Button -->
+      <button type="submit"
+        class="w-full bg-gradient-to-r from-indigo-500 to-cyan-400 hover:from-indigo-600 hover:to-cyan-500 text-white font-semibold py-3 rounded-xl shadow-lg transition-all hover:shadow-2xl">Login</button>
+
+      <!-- Switch to Signup -->
+      <p class="text-center text-gray-400">
+        Don’t have an account?
+        <span id="switchToSignup" class="text-cyan-400 cursor-pointer hover:underline">Signup</span>
+      </p>
+    </form>
+
+    <!-- Signup Form -->
+    <form id="signupForm" class="space-y-6 hidden">
+      <h2 class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-emerald-400 text-center">Create Account</h2>
+      <p class="text-gray-400 text-center">Join us today!</p>
+
+      <!-- Full Name -->
+      <div class="relative">
+        <input type="text" placeholder=" " required
+          class="peer w-full bg-gray-800/70 text-white rounded-xl px-4 pt-5 pb-2 focus:outline-none focus:ring-2 focus:ring-green-500" />
+        <label
+          class="absolute left-4 top-2 text-gray-400 text-sm transition-all
+          peer-placeholder-shown:top-5 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base
+          peer-focus:top-2 peer-focus:text-green-400 peer-focus:text-sm">Full Name</label>
+      </div>
+
+      <!-- Email -->
+      <div class="relative">
+        <input type="email" placeholder=" " required
+          class="peer w-full bg-gray-800/70 text-white rounded-xl px-4 pt-5 pb-2 focus:outline-none focus:ring-2 focus:ring-green-500" />
+        <label
+          class="absolute left-4 top-2 text-gray-400 text-sm transition-all
+          peer-placeholder-shown:top-5 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base
+          peer-focus:top-2 peer-focus:text-green-400 peer-focus:text-sm">Email</label>
+      </div>
+
+      <!-- Password -->
+      <div class="relative">
+        <input type="password" placeholder=" " required
+          class="peer w-full bg-gray-800/70 text-white rounded-xl px-4 pt-5 pb-2 focus:outline-none focus:ring-2 focus:ring-green-500" />
+        <label
+          class="absolute left-4 top-2 text-gray-400 text-sm transition-all
+          peer-placeholder-shown:top-5 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base
+          peer-focus:top-2 peer-focus:text-green-400 peer-focus:text-sm">Password</label>
+      </div>
+      
+      <!-- Role -->
+      <div>
+        <label class="text-xs text-gray-400 block mb-2">Your Role</label>
+        <select id="signupRole"
+          class="w-full bg-gray-800/70 text-white border border-white/10 rounded-xl px-4 py-3 text-sm
+                 focus:outline-none focus:ring-2 focus:ring-green-500 appearance-none">
+            <option value="General">General</option>
+            <option value="Student">Student</option>
+            <option value="Employee">Employee</option>
+            <option value="Tenant">Tenant</option>
+        </select>
+      </div>
+
+      <!-- Signup Button -->
+      <button type="submit"
+        class="w-full bg-gradient-to-r from-green-500 to-emerald-400 hover:from-green-600 hover:to-emerald-500 text-white font-semibold py-3 rounded-xl shadow-lg transition-all hover:shadow-2xl">Signup</button>
+
+      <!-- Switch to Login -->
+      <p class="text-center text-gray-400">
+        Already have an account?
+        <span id="switchToLogin" class="text-indigo-400 cursor-pointer hover:underline">Login</span>
+      </p>
+    </form>
+  </div>
+</div>
+
+<!-- Script to switch forms -->
+<script>
+
+  // Desktop & Mobile Buttons
+  document.querySelectorAll('#loginBtn, #loginBtnMobile').forEach(btn => btn.addEventListener('click', () => {
+    overlay.classList.remove('hidden');
+    loginForm.classList.remove('hidden');
+    signupForm.classList.add('hidden');
+  }));
+
+  document.querySelectorAll('#signupBtn, #signupBtnMobile').forEach(btn => btn.addEventListener('click', () => {
+    overlay.classList.remove('hidden');
+    signupForm.classList.remove('hidden');
+    loginForm.classList.add('hidden');
+  }));
+
+  // Switch links
+  document.getElementById('switchToSignup').addEventListener('click', () => {
+    loginForm.classList.add('hidden');
+    signupForm.classList.remove('hidden');
+  });
+  document.getElementById('switchToLogin').addEventListener('click', () => {
+    signupForm.classList.add('hidden');
+    loginForm.classList.remove('hidden');
+  });
+
+  // Close modal
+  closeModal.addEventListener('click', () => overlay.classList.add('hidden'));
+  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.classList.add('hidden'); });
+</script>
+
+<script>
+  function openAskPage() {
+    window.open('ask.html', '_blank'); // opens in a new tab
+  }
+</script>
   <main class="relative z-10">
     
     <!-- HOME SECTION -->
@@ -53,13 +235,32 @@
      <div class="page-section">
       
       <h1 id="heroTitle" class="text-4xl md:text-6xl font-bold leading-tight mb-6"><span class="bg-gradient-to-r from-white via-indigo-200 to-cyan-200 bg-clip-text text-transparent">AI-Powered Personalized</span> <br><span class="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Legal Assistant</span></h1>
-      <p id="heroSubtitle" class="text-lg md:text-xl text-gray-400 inter mb-8 max-w-lg">Understand laws and legal rights in simple, human language. Get instant, personalized legal guidance powered by advanced AI.</p>
-      <div class="flex flex-col sm:flex-row gap-4"><a href="#ask" class="btn-3d px-8 py-4 bg-gradient-to-r from-indigo-600 to-indigo-500 rounded-2xl font-semibold text-center hover:from-indigo-500 hover:to-indigo-400 transition-all"> <span class="flex items-center justify-center gap-2">
-         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-         </svg> Ask a Legal Question </span> </a> <a href="#upload" class="btn-3d px-8 py-4 glass-card rounded-2xl font-semibold text-center hover:bg-white/10 transition-all"> <span class="flex items-center justify-center gap-2">
-         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-         </svg> Upload Legal Document </span> </a>
-      </div>
+      <p id="heroSubtitle" class="text-lg md:text-xl text-gray-400 inter mb-8 max-w-lg">Understand laws and legal rights in simple, human language. Get instant and personalized legal guidance powered by advanced AI.</p>
+     
+<div class="flex flex-col sm:flex-row justify-start items-start gap-6 mt-8">
+
+  <!-- Ask Question Button -->
+  <button onclick="openAskPage(event)"
+   class="btn-3d inline-flex items-center justify-center gap-2 px-8 py-4 
+          bg-gradient-to-r from-indigo-600 to-indigo-500 
+          rounded-2xl font-semibold 
+          hover:from-indigo-500 hover:to-indigo-400 
+          transition-all duration-300 shadow-lg">
+
+  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+          d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+  </svg>
+
+  Ask a Legal Question
+</button>
+
+  
+
+</div>
+
+
+
       <div class="mt-12 flex items-center gap-8">
        <div class="text-center">
         <div class="text-3xl font-bold text-white">
@@ -97,7 +298,8 @@
         <div class="absolute inset-0 rounded-3xl bg-gradient-to-br from-indigo-600/30 to-cyan-500/30 glass-card flex items-center justify-center">
          <svg class="w-48 h-48 text-indigo-400" viewbox="0 0 200 200" fill="none">
           
-          <!-- Brain outline --> <ellipse cx="100" cy="95" rx="60" ry="55" stroke="currentColor" stroke-width="2" fill="none" class="animate-pulse" /> <!-- Neural connections --> <circle cx="70" cy="80" r="8" fill="rgba(99, 102, 241, 0.5)" class="animate-ping" style="animation-duration: 2s;" /> <circle cx="130" cy="80" r="8" fill="rgba(34, 211, 211, 0.5)" class="animate-ping" style="animation-duration: 2.5s;" /> <circle cx="100" cy="60" r="6" fill="rgba(139, 92, 246, 0.5)" class="animate-ping" style="animation-duration: 3s;" /> <circle cx="85" cy="110" r="7" fill="rgba(99, 102, 241, 0.5)" class="animate-ping" style="animation-duration: 2.2s;" /> <circle cx="115" cy="110" r="7" fill="rgba(34, 211, 211, 0.5)" class="animate-ping" style="animation-duration: 2.8s;" /> <!-- Connecting lines --> <path d="M70 80 L100 60 L130 80" stroke="rgba(99, 102, 241, 0.4)" stroke-width="1" /> <path d="M70 80 L85 110 L115 110 L130 80" stroke="rgba(34, 211, 211, 0.4)" stroke-width="1" /> <path d="M100 60 L100 90" stroke="rgba(139, 92, 246, 0.4)" stroke-width="1" /> <!-- Scale of justice --> <g transform="translate(100, 155)">
+          <!-- Brain outline --> 
+          <ellipse cx="100" cy="95" rx="60" ry="55" stroke="currentColor" stroke-width="2" fill="none" class="animate-pulse" /> <!-- Neural connections --> <circle cx="70" cy="80" r="8" fill="rgba(99, 102, 241, 0.5)" class="animate-ping" style="animation-duration: 2s;" /> <circle cx="130" cy="80" r="8" fill="rgba(34, 211, 211, 0.5)" class="animate-ping" style="animation-duration: 2.5s;" /> <circle cx="100" cy="60" r="6" fill="rgba(139, 92, 246, 0.5)" class="animate-ping" style="animation-duration: 3s;" /> <circle cx="85" cy="110" r="7" fill="rgba(99, 102, 241, 0.5)" class="animate-ping" style="animation-duration: 2.2s;" /> <circle cx="115" cy="110" r="7" fill="rgba(34, 211, 211, 0.5)" class="animate-ping" style="animation-duration: 2.8s;" /> <!-- Connecting lines --> <path d="M70 80 L100 60 L130 80" stroke="rgba(99, 102, 241, 0.4)" stroke-width="1" /> <path d="M70 80 L85 110 L115 110 L130 80" stroke="rgba(34, 211, 211, 0.4)" stroke-width="1" /> <path d="M100 60 L100 90" stroke="rgba(139, 92, 246, 0.4)" stroke-width="1" /> <!-- Scale of justice --> <g transform="translate(100, 155)">
            <line x1="0" y1="-20" x2="0" y2="10" stroke="currentColor" stroke-width="2" />
            <line x1="-30" y1="-15" x2="30" y2="-15" stroke="currentColor" stroke-width="2" />
            <path d="M-30 -15 L-35 0 L-25 0 Z" fill="currentColor" opacity="0.6" />
@@ -256,147 +458,13 @@
     </div>
    </section>
    
-   <!-- ASK QUESTION SECTION -->
-   <section id="ask" class="py-24 px-6">
-    <div class="max-w-4xl mx-auto">
-     <div class="text-center mb-12 page-section">
-      <h2 class="text-3xl md:text-5xl font-bold mb-4"><span class="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">Ask a </span> <span class="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Legal Question</span></h2>
-      <p class="text-gray-400 inter">Get instant, AI-powered legal guidance</p>
-     </div>
-     <div class="page-section glass-card rounded-3xl overflow-hidden"><!-- Chat Settings -->
-      <div class="p-6 border-b border-white/10">
-       <div class="flex flex-wrap gap-4 items-center justify-between">
-        <div class="flex flex-wrap gap-4">
-         <div><label class="text-xs text-gray-400 inter mb-2 block">Your Role</label> <select id="userRole" class="bg-white/5 border border-white/10 rounded-xl px-4 py-2 text-sm focus:outline-none focus:border-indigo-500 transition-colors"> <option value="individual">Individual</option> <option value="student">Student</option> <option value="employee">Employee</option> <option value="business">Business Owner</option> </select>
-         </div>
-         <div><label class="text-xs text-gray-400 inter mb-2 block">Explanation Level</label>
-          <div class="flex bg-white/5 rounded-xl p-1"><button id="levelBasic" class="px-4 py-2 rounded-lg text-sm font-medium bg-indigo-600 text-white transition-all" onclick="setLevel('basic')">Basic</button> <button id="levelDetailed" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-white transition-all" onclick="setLevel('detailed')">Detailed</button>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      
-      <!-- Chat Messages -->
-      <div id="chatMessages" class="h-96 overflow-y-auto p-6 space-y-4">
-       <div class="chat-bubble flex gap-3">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-600 to-cyan-500 flex items-center justify-center flex-shrink-0">
-         <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-         </svg>
-        </div>
-        <div class="glass-card rounded-2xl rounded-tl-none p-4 max-w-md">
-         <p class="text-sm inter">Hello! I'm your AI Legal Assistant. Ask me any legal question, and I'll provide clear, understandable guidance. What would you like to know?</p>
-        </div>
-       </div>
-      </div>
-      
-  <!-- Chat Input Section -->
-<section id="ask" class="py-24 px-6">
-  <div class="max-w-4xl mx-auto">
-
-    <!-- Chat Form -->
-    <form id="chatForm"
-      class="flex items-center gap-3 bg-[#0f0f1a] border border-white/10 rounded-xl px-3 py-2">
-
-      <!-- File Upload -->
-      <label class="cursor-pointer text-indigo-400 hover:text-indigo-300 text-lg">
-        📎
-        <input type="file" id="fileUpload" class="hidden"
-          accept=".pdf,.doc,.docx,image  
-
-      <!-- Camera Button -->
-      <button type="button" id="cameraBtn"
-        class="text-indigo-400 hover:text-indigo-300 text-lg">
-        📷
-      </button>
-
-      <!-- Chat Input -->
-      <input type="text" id="chatInput"
-        placeholder="Type your legal question..."
-        class="flex-1 bg-transparent outline-none text-white placeholder-gray-400 text-sm">
-
-      <!-- Send Button -->
-      <button type="submit"
-        class="btn-3d px-5 py-2 bg-gradient-to-r from-indigo-600 to-indigo-500 rounded-lg text-white font-medium">
-        ➤
-      </button>
-
-    </form>
-
-  </div>
-</section>
+   
 
        
-       <!-- Disclaimer -->
-       <div class="mt-4 p-3 rounded-xl bg-amber-500/10 border border-amber-500/20">
-        <p class="text-xs text-amber-200/80 inter flex items-start gap-2">
-         <svg class="w-4 h-4 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-         </svg>
-         <span><strong>Disclaimer:</strong> This AI provides general legal information only and does not constitute legal advice. For specific legal matters, please consult a qualified attorney.</span>
-        </p>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section>
    
-   <!-- UPLOAD DOCUMENTS SECTION -->
-   <section id="upload" class="py-24 px-6">
-    <div class="max-w-4xl mx-auto">
-     <div class="text-center mb-12 page-section">
-      <h2 class="text-3xl md:text-5xl font-bold mb-4">
-        <span class="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">Upload Legal </span> 
-        <span class="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Documents</span></h2>
-      <p class="text-gray-400 inter">Get instant AI analysis of contracts, agreements, and legal documents</p>
-     </div>
-     <div class="page-section">
-      <div id="uploadZone" class="upload-zone glass-card rounded-3xl p-12 text-center cursor-pointer" onclick="document.getElementById('fileInput').click()"><input type="file" id="fileInput" class="hidden" accept=".pdf,.doc,.docx,.txt" onchange="handleFileUpload(event)">
-       <div class="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-indigo-600/30 to-cyan-500/30 flex items-center justify-center">
-        <svg class="w-10 h-10 text-indigo-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-        </svg>
-       </div>
-       <h3 class="text-xl font-bold mb-2">Drop your document here</h3>
-       <p class="text-gray-400 inter text-sm mb-4">or click to browse</p>
-       <p class="text-xs text-gray-500 inter">Supports PDF, DOC, DOCX, TXT (Max 10MB)</p>
-      </div>
-      
-      <!-- Uploaded Files -->
-      <div id="uploadedFiles" class="mt-6 space-y-4 hidden"><!-- Files will be added here -->
-      </div>
-      
-      <!-- Analysis Result -->
-      <div id="analysisResult" class="mt-8 hidden">
-       <div class="glass-card rounded-3xl p-8">
-        <div class="flex items-center gap-3 mb-6">
-         <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-green-600 to-green-400 flex items-center justify-center">
-          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-         </div>
-         <h3 class="text-xl font-bold">Document Analysis Complete</h3>
-        </div>
-        <div class="space-y-6">
-         <div>
-          <h4 class="text-sm font-semibold text-indigo-400 mb-2 uppercase tracking-wider">Summary</h4>
-          <p class="text-gray-300 inter text-sm leading-relaxed" id="docSummary">Loading analysis...</p>
-         </div>
-         <div>
-          <h4 class="text-sm font-semibold text-cyan-400 mb-2 uppercase tracking-wider">Key Points</h4>
-          <ul class="space-y-2" id="keyPoints"><!-- Key points will be added here -->
-          </ul>
-         </div>
-         <div>
-          <h4 class="text-sm font-semibold text-violet-400 mb-2 uppercase tracking-wider">Potential Concerns</h4>
-          <ul class="space-y-2" id="concerns"><!-- Concerns will be added here -->
-          </ul>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-  
-   </section>
    
+      
+      
    <!-- ABOUT PROJECT SECTION -->
    <section id="about" class="py-24 px-6">
     <div class="max-w-4xl mx-auto">
@@ -411,15 +479,15 @@
          </svg>
         </div>
         <div>
-         <h3 class="text-2xl font-bold">Final Year Computer Science Project</h3>
-         <p class="text-gray-400 inter">AI-Powered Personalized Legal Assistant</p>
+         <h3 class="text-2xl font-bold">AI-Powered Personalized Legal Assistance Platform</h3>
+         
         </div>
        </div>
        <div class="space-y-6 text-gray-300 inter">
-        <p>This project represents the culmination of research and development in artificial intelligence applied to the legal domain. Our goal is to democratize access to legal information by making it understandable and accessible to everyone.</p>
+        <p>AI-Powered Legal Assistance Platform is a web-based system that simplifies complex legal concepts into clear, easy-to-understand language. It allows users to submit legal queries and receive structured, simplified responses. The platform focuses on clarity, accessibility, and intelligent processing to help individuals better understand their rights and legal options.</p>
         <div class="grid md:grid-cols-2 gap-6 mt-8">
          <div class="glass-card p-6 rounded-2xl">
-          <h4 class="font-bold text-indigo-400 mb-3">🎯 Project Objectives</h4>
+          <h4 class="font-bold text-indigo-400 mb-3">🎯Core Functionalities</h4>
           <ul class="space-y-2 text-sm">
            <li class="flex items-start gap-2"><span class="text-green-400">✓</span> <span>Make legal information accessible to non-experts</span></li>
            <li class="flex items-start gap-2"><span class="text-green-400">✓</span> <span>Provide personalized legal guidance</span></li>
@@ -428,12 +496,12 @@
           </ul>
          </div>
          <div class="glass-card p-6 rounded-2xl">
-          <h4 class="font-bold text-cyan-400 mb-3">🔬 Research Areas</h4>
+          <h4 class="font-bold text-cyan-400 mb-3">🔬System Capabilities</h4>
           <ul class="space-y-2 text-sm">
-           <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> <span>Natural Language Processing (NLP)</span></li>
-           <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> <span>Large Language Models (LLMs)</span></li>
-           <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> <span>Legal Text Mining &amp; Analysis</span></li>
-           <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> <span>Human-AI Interaction Design</span></li>
+           <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> <span>Intelligent Text Processing</span></li>
+           <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> <span>User Interaction Design</span></li>
+           <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> <span>Secure Access Handling</span></li>
+           <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> <span>Legal Content Structuring</span></li>
           </ul>
          </div>
         </div>
@@ -460,17 +528,16 @@
        </div>
        <div class="space-y-6 inter">
         <div class="p-6 rounded-2xl bg-amber-500/10 border border-amber-500/20">
-         <p class="text-lg text-amber-100 font-medium leading-relaxed">"This platform provides <strong>informational legal assistance only</strong> and <strong>does not constitute legal advice</strong>. The information provided should not be relied upon as a substitute for professional legal counsel."</p>
+         <p class="text-lg text-amber-100 font-medium leading-relaxed">This platform provides legal information for general informational purposes only and does not constitute legal advice. The information provided should not be relied upon as a substitute for consultation with a qualified legal professional.</p>
         </div>
         <div class="space-y-4 text-gray-300 text-sm">
-         <p><strong class="text-white">No Attorney-Client Relationship:</strong> Use of this AI assistant does not create an attorney-client relationship between you and any legal professional.</p>
-         <p><strong class="text-white">Not a Substitute for Legal Advice:</strong> The AI provides general legal information based on publicly available data. For specific legal matters, always consult a qualified attorney licensed in your jurisdiction.</p>
-         <p><strong class="text-white">Accuracy Limitations:</strong> While we strive for accuracy, AI-generated responses may contain errors or outdated information. Laws change frequently, and interpretations may vary.</p>
+         <p><strong class="text-white">No Attorney-Client Relationship:</strong> Use of this AI-based platform does not create an attorney-client relationship between the user and any legal professional or organization.</p>
+         <p><strong class="text-white">Accuracy Limitations:</strong> While we strive for accuracy, AI-generated responses may contain errors or outdated information. Laws change frequently and interpretations may vary.</p>
          <p><strong class="text-white">Jurisdiction Specific:</strong> Legal information may vary significantly by jurisdiction. Always verify information with local legal resources.</p>
-         <p><strong class="text-white">Privacy Notice:</strong> While we implement strong security measures, please avoid sharing highly sensitive personal information through this platform.</p>
+         <p><strong class="text-white">Privacy Notice:</strong> While we implement strong security measures so please avoid sharing highly sensitive personal information through this platform.</p>
         </div>
         <div class="pt-6 border-t border-white/10">
-         <p class="text-xs text-gray-500">By using this service, you acknowledge that you have read, understood, and agree to these terms. This disclaimer was last updated on January 2025.</p>
+         <p class="text-xs text-gray-500">By using this service, you acknowledge that you have read, understood, and agree to these terms.</p>
         </div>
        </div>
       </div>
@@ -486,32 +553,22 @@
        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-cyan-400 flex items-center justify-center">
         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
         </svg>
-       </div><span class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">LegalAI</span>
+       </div><span class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">LegalEase</span>
       </div>
-      <p class="text-sm text-gray-400 inter text-center">© 2025 AI-Powered Legal Assistant. All rights reserved.</p>
+      <p class="text-sm text-gray-400 inter text-center">© 2025 AI-Powered Personalized Legal Assistant System. All rights reserved.</p>
       <div class="flex gap-4"><a href="#disclaimer" class="text-sm text-gray-400 hover:text-white transition-colors">Disclaimer</a> <span class="text-gray-600">•</span> <a href="#about" class="text-sm text-gray-400 hover:text-white transition-colors">About</a>
       </div>
      </div>
     </div>
    </footer>
 
-   <!-- Camera Modal -->
-<div id="cameraModal" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50">
-  <div class="bg-[#0f0f1a] p-4 rounded-xl">
-    <video id="video" autoplay class="rounded-lg w-72"></video>
-    <div class="flex justify-between mt-3">
-      <button id="captureBtn" class="text-white bg-indigo-500 px-3 py-1 rounded">
-        Capture
-      </button>
-      <button id="closeCamera" class="text-white">
-        Close
-      </button>
-    </div>
-    <canvas id="canvas" class="hidden"></canvas>
-  </div>
-</div>
 
-  </main>
+  
+</main>
 
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9c070e7c2041dcf0',t:'MTc2ODgzMzMwNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9c070e7c2041dcf0',t:'MTc2ODgzMzMwNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+ <script src="script.js"></script>
+ </body>
 </html>

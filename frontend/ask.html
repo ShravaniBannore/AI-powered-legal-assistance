@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ask a Legal Question</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    #chatMessages::-webkit-scrollbar { width: 4px; }
+    #chatMessages::-webkit-scrollbar-track { background: transparent; }
+    #chatMessages::-webkit-scrollbar-thumb { background: rgba(99,102,241,0.4); border-radius: 4px; }
+    select option { background: #141428; color: white; }
+    .message-in { animation: slideIn 0.25s ease-out; }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-[#0b0b14] text-white">
+
+<section id="ask" class="relative w-full h-screen flex flex-col overflow-hidden">
+
+  <!-- Background Layer -->
+  <div class="absolute inset-0 -z-10">
+    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-indigo-900/40 via-black to-cyan-900/30"></div>
+    <div class="absolute top-[-100px] left-[-100px] w-[400px] h-[400px] bg-indigo-600/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-[-120px] right-[-100px] w-[400px] h-[400px] bg-cyan-500/20 rounded-full blur-3xl"></div>
+  </div>
+
+  <!-- Full-Screen Glass Container -->
+  <div class="relative z-10 flex flex-col w-full h-full backdrop-blur-xl bg-white/5 border-x border-white/10 shadow-2xl max-w-4xl mx-auto">
+
+    <!-- Header -->
+    <div class="flex-shrink-0 px-6 py-5 border-b border-white/10 bg-[#0b0b14]/60">
+      <div class="flex items-center justify-between flex-wrap gap-4">
+
+        <!-- Title -->
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold leading-tight">
+            <span class="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">Ask a </span>
+            <span class="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Legal Question</span>
+          </h2>
+          <p class="text-gray-400 text-sm mt-0.5">Get instant, AI-powered legal guidance</p>
+        </div>
+
+        <!-- Controls -->
+        <div class="flex flex-wrap gap-6 items-end">
+          <div>
+            <label class="text-xs text-gray-400 block mb-2">Your Role</label>
+            <select id="signupRole" ...>
+              <option value="General">General</option>
+              <option value="Student">Student</option>
+              <option value="Employee">Employee</option>
+              <option value="Tenant">Tenant</option>
+            </select>
+          </div>
+          <div>
+            <label class="text-xs text-gray-400 block mb-2">Explanation Level</label>
+            <div class="flex bg-white/5 rounded-xl p-1">
+              <button id="levelBasic"
+                class="px-4 py-2 rounded-lg text-sm font-medium bg-indigo-600 text-white transition">
+                Basic
+              </button>
+              <button id="levelDetailed"
+                class="px-4 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-white transition">
+                Detailed
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Chat Messages — fills remaining space -->
+    <div id="chatMessages" class="flex-1 overflow-y-auto p-6 space-y-4">
+      <div class="flex gap-3 message-in">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-600 to-cyan-500 flex items-center justify-center flex-shrink-0 text-lg">
+          ⚖️
+        </div>
+        <div class="bg-white/5 rounded-2xl rounded-tl-none p-4 max-w-xl border border-white/10">
+          <p class="text-sm text-gray-300">
+            Hello! I'm your AI Legal Assistant. Ask me any legal question, and I'll provide clear,
+            understandable guidance. What would you like to know?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Input — pinned to bottom -->
+    <div class="flex-shrink-0 border-t border-white/10 p-4 bg-[#0f0f1a]/60">
+      <form id="chatForm"
+        class="flex items-center gap-3 bg-[#0f0f1a] border border-white/10 rounded-xl px-3 py-2">
+
+        <!-- File Upload -->
+        <label class="cursor-pointer text-indigo-400 hover:text-indigo-300 text-lg transition">
+          📎
+          <input type="file" id="fileUpload" class="hidden" accept=".pdf,.doc,.docx,image/*">
+        </label>
+
+        <!-- Camera Button -->
+        <button type="button" id="cameraBtn"
+          class="text-indigo-400 hover:text-indigo-300 text-lg transition">
+          📷
+        </button>
+
+        <!-- Input -->
+        <input type="text" id="chatInput"
+          placeholder="Type your legal question..."
+          class="flex-1 bg-transparent outline-none text-white placeholder-gray-400 text-sm">
+
+        <!-- Send -->
+        <button type="submit"
+          class="px-5 py-2 bg-gradient-to-r from-indigo-600 to-indigo-500 rounded-lg text-white font-medium hover:scale-105 transition">
+          ➤
+        </button>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- Only script.js handles all logic -->
+<script src="script.js"></script>
+
+</body>
+</html>

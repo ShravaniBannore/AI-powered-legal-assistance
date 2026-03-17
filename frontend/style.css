@@ -289,4 +289,70 @@
       box-shadow: inset -10px -10px 30px rgba(0, 0, 0, 0.3), 0 0 40px rgba(139, 92, 246, 0.2);
     }
   
-    
+    select {
+  background-color: #141428;
+  color: white;
+}
+
+select option {
+  background-color: #141428;
+  color: white;
+}
+
+.ai-message {
+  max-width: 70%;
+  padding: 14px 16px;
+  line-height: 1.6;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+/* Chat message container */
+.chat-message {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+/* AI messages */
+.ai-message {
+  max-width: 75%;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.08);
+  color: #e5e7eb;
+  line-height: 1.6;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+/* User messages */
+.user-message {
+  max-width: 65%;
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: linear-gradient(135deg,#6366f1,#22d3d3);
+  color: white;
+  margin-left: auto;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.ai-message p {
+  margin-bottom: 6px;
+}
+
+.ai-message ul {
+  margin-left: 15px;
+}

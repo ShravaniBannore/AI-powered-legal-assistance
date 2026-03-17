@@ -21,25 +21,29 @@ def ingest_dataset():
     index = load_or_create_index()
 
     for item in data:
-        content = item["content"]
+        definition = item.get("definition", "")
+        explanation = item.get("explanation", "")
+        punishment = item.get("punishment", "")
 
-        paragraphs = content.split(". ")
+        content = f"""
+        Definition: {definition}
 
-        for para in paragraphs:
-            if len(para.strip()) < 20:
-                continue
+        Explanation: {explanation}
 
-            embedding = generate_embedding(para)
-            vector = np.array([embedding]).astype("float32")
+        Punishment: {punishment}
+        """
 
-            add_vectors(index, vector)
+        embedding = generate_embedding(content)
+        vector = np.array([embedding]).astype("float32")
 
-            add_chunk({
-                "id": item["id"],
-                "category": item["category"],
-                "title": item["title"],
-                "content": para.strip()
-            })
+        add_vectors(index, vector)
+
+        add_chunk({
+            "id": item["id"],
+            "category": item["category"],
+            "title": item["title"],
+            "content": content.strip()
+        })
 
     print("Dataset ingestion complete.")
 
