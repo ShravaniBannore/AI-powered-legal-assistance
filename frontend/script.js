@@ -288,6 +288,7 @@ chatForm?.addEventListener('submit', async function (e) {
 
     const data = await res.json();
     console.log(data);
+    console.log("SOURCES:", data.sources);
 
     if (res.ok) {
       const r = data.response;
@@ -329,6 +330,26 @@ if (r.citations && r.citations.length > 0) {
     message += `• ${c.title} (${c.category})\n`;
   });
 }
+/* 🔗 EXTERNAL SOURCES (FINAL FIX) */
+if (data.sources && data.sources.length > 0) {
+  message += `\n\n🔗 More Information:\n`;
+  data.sources.forEach(link => {
+    let label = "Legal Resource";
+
+    if (link.includes("indiankanoon")) {
+      label = `${data.predicted_category} – Indian Kanoon`;
+    } 
+    else if (link.includes("lawrato")) {
+      label = `${data.predicted_category} – LawRato`;
+    } 
+    else {
+      label = `${data.predicted_category} Resource`;
+    }
+
+    message += `• <a href="${link}" target="_blank" style="color:#60a5fa; text-decoration: underline;">${label}</a>\n`;
+  
+  });
+}
       addMessage(message, "ai");
     } 
     else {
@@ -343,6 +364,7 @@ if (r.citations && r.citations.length > 0) {
 
 });
 
+
 function addMessage(text, sender) {
   if (!chatMessages) return;
 
@@ -352,8 +374,9 @@ function addMessage(text, sender) {
     div.className = 'flex gap-3 justify-end message-in';
     div.innerHTML = `
       <div class="bg-indigo-600/30 rounded-2xl rounded-tr-none p-4 max-w-xl border border-indigo-500/20">
-        <p class="text-sm text-white whitespace-pre-wrap">${text}</p>
+      <p class="text-sm text-gray-300 whitespace-pre-wrap"></p>
       </div>`;
+      div.querySelector("p").innerHTML = text;
   } else {
     div.className = 'flex gap-3 message-in';
     div.innerHTML = `

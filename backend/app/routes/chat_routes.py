@@ -118,10 +118,15 @@ def chat(
     # Check if legal
     if not is_legal_query(query):
         return {
-            "answer": "This assistant is designed to answer legal-related questions only. Please ask a legal query.",
-            "confidence": 0.0,
-            "source": []
+        "response": {
+            "summary": "This assistant is designed to answer legal-related questions only.",
+            "detected_issue": "Non-legal query",
+            "risk_level": "None",
+            "explanation": "Please ask a question related to law, legal rights, or legal procedures.",
+            "advice": [],
+            "citations": []
         }
+    }
     
     predicted_category = detect_category(query)
     if not predicted_category:
